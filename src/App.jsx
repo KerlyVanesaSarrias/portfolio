@@ -5,7 +5,7 @@ import { AppRouter } from './routes'
 function App() {
 
   return (
-    <div className='container-page'>
+    <div>
       <AppRouter />
     </div>
   )

@@ -1,0 +1,7 @@
+.dark {
+    @apply bg-violet-950 text-white
+}
+
+.light {
+    @apply bg-purple-200 text-violet-950
+}

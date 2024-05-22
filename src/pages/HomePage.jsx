@@ -1,7 +1,7 @@
 
 import Button from "../components/Button/Button"
 import { FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa";
-import'./Styles/HomePage.css'
+
 
 
 
@@ -9,7 +9,7 @@ const HomePage = () => {
     return (
         <div className='flex flex-row items-center bg-[#07233B] px-8'>
             <div className="w-3/5">
-                <h1 className="bg-[#00334E] uppercase text-white p-1 rounded font-normal tracking-widest w-36">Kerly Sarrias</h1>
+                <h1 className="bg-[#00334E] uppercase text-white p-1 rounded -normal tracking-widest w-36">Kerly Sarrias</h1>
                 <h2 className=" text-white font-bold uppercase text-6xl ">Hay! i am Kerly Vanessa Sarrias</h2>
                 <div className="flex gap-3">
                     <h3 className=" text-cyan-500 font-bold uppercase text-6xl">I'm a</h3>

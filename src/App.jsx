@@ -5,7 +5,7 @@ import { AppRouter } from './routes'
 function App() {
 
   return (
-    <div>
+    <div className='bg-[#07233B] '>
       <AppRouter />
     </div>
   )

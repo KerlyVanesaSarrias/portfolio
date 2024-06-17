@@ -15,7 +15,7 @@ const HomePage = () => {
                     <h3 className=" text-cyan-500 font-bold uppercase text-6xl">I'm a</h3>
                     <h4 className="text-cyan-500 font-bold uppercase text-6xl home_animation">developer</h4>
                 </div>
-                <p className="text-white font-normal text-xl leading-normal tracking-wider mt-4 " >Full Stack Web Developer, passionate about creating memorable and functional digital experiences. With skills in multiple technologies and a focus on development efficiency.</p>
+                <p className="text-white font-normal text-xl leading-normal tracking-wider mt-4 " >Full Stack Web Developer, passionate about creating memorable and functional digital experiences. With skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.</p>
                 <div className="flex gap-3 mt-6">
                     <Button color="primary" size="small" isRounded>Get in touch</Button>
                     <Button isOnlyIcon='icon' color='secondary'  ><FaGithub/></Button>

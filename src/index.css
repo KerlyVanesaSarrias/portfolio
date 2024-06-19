@@ -12,7 +12,7 @@
 }
 
 .slide {
-    animation: slide 100s linear infinite;
+    animation: slide 50s linear infinite;
 }
 
 html, body {

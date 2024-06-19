@@ -37,16 +37,9 @@ const Carousel = () => {
             image: '/public/Pokedex.png',
             link: 'https://pokedex-omega-khaki.vercel.app/',
             title: 'Pokedex',
-            description: 'A web app that displays information about Pokémon'
+            description: 'A web app that displays information about Pokémons'
         },
-
-        {
-            id: 5,
-            image: '/public/Pokedex.png',
-            link: 'https://pokedex-omega-khaki.vercel.app/',
-            title: 'Hotels Booking',
-            description: 'A web app that allows users to book hotels'
-        },
+    
     ]
     return (
         <div className="overflow-hidden  whitespace-nowrap scrollbar-hide">

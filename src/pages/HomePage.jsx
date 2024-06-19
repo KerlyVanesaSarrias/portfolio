@@ -7,15 +7,15 @@ import { FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa";
 
 const HomePage = () => {
     return (
-        <div className='flex flex-row items-center px-8'>
+        <div className='w-full flex flex-row items-center justify-center px-8 py-10'>
             <div className="w-3/5">
                 <h1 className="bg-[#00334E] uppercase text-white p-1 rounded -normal tracking-widest w-36">Kerly Sarrias</h1>
-                <h2 className=" text-white font-bold uppercase text-6xl ">Hay! i am Kerly Vanessa Sarrias</h2>
+                <h2 className=" dark:text-white  text-gray-700 font-bold uppercase text-6xl ">Hay! i am Kerly Vanessa Sarrias</h2>
                 <div className="flex gap-3">
-                    <h3 className=" text-cyan-500 font-bold uppercase text-6xl">I'm a</h3>
-                    <h4 className="text-cyan-500 font-bold uppercase text-6xl home_animation">developer</h4>
+                    <h3 className=" text-cyan-500 font-bold uppercase text-6xl">I'm</h3>
+                    <h4 className="text-cyan-500 font-bold uppercase text-6xl home_animation typing">a developer</h4>
                 </div>
-                <p className="text-white font-normal text-xl leading-normal tracking-wider mt-4 " >Full Stack Web Developer, passionate about creating memorable and functional digital experiences. With skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.</p>
+                <p className=" dark:text-white  text-gray-700 font-normal text-xl leading-normal tracking-wider mt-4 " >Full Stack Web Developer, passionate about creating memorable and functional digital experiences. With skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.</p>
                 <div className="flex gap-3 mt-6">
                     <Button color="primary" size="small" isRounded>Get in touch</Button>
                     <Button isOnlyIcon='icon' color='secondary'  ><FaGithub/></Button>
@@ -24,7 +24,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div>
-            <img className="" src="/src/assets/logo3.png" alt="" />
+                <img className="" src="/src/assets/logo3.png" alt="" />
             </div>
     
         </div>

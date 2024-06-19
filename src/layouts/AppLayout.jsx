@@ -4,7 +4,7 @@ import { Header } from '../components'
 
 const AppLayout = () => {
   return (
-    <div className='container-layout'>
+    <div className='container-layout dark:bg-[#07233B] bg-[#eeee]'>
         <Header />
         <Outlet/>
     </div>

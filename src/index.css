@@ -14,3 +14,7 @@
 .slide {
     animation: slide 100s linear infinite;
 }
+
+html, body {
+    height: 100%;
+}

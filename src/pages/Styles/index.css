@@ -1,0 +1,26 @@
+.brand {
+    @apply bg-[#00334E] uppercase text-white  p-1 rounded tracking-widest pr-16 inline-block mb-5;
+}
+
+.year-label {
+    @apply border-2 text-sm inline-block rounded-full border-cyan-500 py-1 px-4 my-2;
+}
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 13ch; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(14, 148, 238); }
+}
+
+.typing {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 5px solid rgb(6, 175, 218);
+    animation: typing 3s steps(13) 1s infinite alternate,
+                blink 0.75s step-end infinite;
+}

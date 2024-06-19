@@ -22,7 +22,8 @@ const Carousel = () => {
             image: '/public/Users.png',
             link: 'https://users-crud-three.vercel.app/',
             title: 'Users CRUD',
-            description: 'A web app that allows users to create, read, update and delete user data'
+            description: 'A web app that allows users to create, read, update and delete user data',
+
         },
         {
             id: 4,
@@ -37,6 +38,14 @@ const Carousel = () => {
             link: 'https://pokedex-omega-khaki.vercel.app/',
             title: 'Pokedex',
             description: 'A web app that displays information about Pokémon'
+        },
+
+        {
+            id: 5,
+            image: '/public/Pokedex.png',
+            link: 'https://pokedex-omega-khaki.vercel.app/',
+            title: 'Hotels Booking',
+            description: 'A web app that allows users to book hotels'
         },
     ]
     return (

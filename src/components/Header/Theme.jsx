@@ -4,8 +4,15 @@ import ReactSwitch from "react-switch"
 
 const Theme = () => {
     const [checked, setChecked] = useState(false)
+
     const handleSwitch = (nextChecked) => {
         setChecked(nextChecked)
+        toggleDarkMode()
+    }
+
+    const toggleDarkMode = () => {
+        const htmlElement = document.documentElement;
+        htmlElement.classList.toggle('dark');
     }
 
     return (

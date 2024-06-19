@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Button from "../Button/Button"
 
 const FormContact = () => {
     const [formData, setFormData] = useState({
@@ -64,12 +65,12 @@ const FormContact = () => {
                     <label htmlFor="message" className="block">Message</label>
                     <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="4" className="w-full border border-gray-300 rounded-md p-2"></textarea>
                 </div>
-                <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md" disabled={isSending}>
-                    {isSending ? 'Sending...' : 'Send'}
-                </button>
+                <Button type="submit"color="primary" size="small" disabled={isSending}>{isSending ? 'Sending...' : 'Send'}</Button>
+                </form>
                 {isSuccess && <p className="text-green-500">Message sent successfully!</p>}
             {error && <p className="text-red-500">{error}</p>}
-            </form>
+        
+
         </div>
     );
 };

@@ -22,7 +22,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div>
-                <img className="" src={LogoImg} alt="" />
+                <img className="w-60 h-80" src={LogoImg} alt="" />
             </div>
     
         </div>

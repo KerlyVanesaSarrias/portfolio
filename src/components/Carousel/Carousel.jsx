@@ -1,25 +1,30 @@
 import React from 'react';
+import Fortune from '../../assets/Fortune cookie.png'
+import Weather from '../../assets/WeatherApp.png'
+import User from '../../assets/Users.png'
+import RickAndMorty from '../../assets/RickAndMorty.png'
+import Pokedex from '../../assets/Pokedex.png'
 
 const Carousel = () => {
 
     const projects = [
         {
             id: 1,
-            image: '/public/Fortune cookie.png',
+            image: {Fortune},
             link: 'https://fortune-cookie-omega.vercel.app/',
             title: 'Fortune Cookie',
             description: 'A web app that generates random fortune cookie messages'
         },
         {
             id: 2,
-            image: '/public/WeatherApp.png',
+            image: {Weather},
             link: 'https://weather-app-pi-ten-18.vercel.app/',
             title: 'Weather App',
             description: 'A web app that displays current weather and forecast for a given location'
         },
         {
             id: 3,
-            image: '/public/Users.png',
+            image: {User},
             link: 'https://users-crud-three.vercel.app/',
             title: 'Users CRUD',
             description: 'A web app that allows users to create, read, update and delete user data',
@@ -27,14 +32,14 @@ const Carousel = () => {
         },
         {
             id: 4,
-            image: '/public/RickAndMorty.png',
+            image: {RickAndMorty},
             link: 'https://rick-and-morty-app-pi-umber.vercel.app/',
             title: 'Rick and Morty App',
             description: 'A web app that displays characters and episodes from the Rick and Morty TV series'
         },
         {
             id: 5,
-            image: '/public/Pokedex.png',
+            image: {Pokedex},
             link: 'https://pokedex-omega-khaki.vercel.app/',
             title: 'Pokedex',
             description: 'A web app that displays information about Pokémons'

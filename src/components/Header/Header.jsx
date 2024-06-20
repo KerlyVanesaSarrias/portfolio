@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { ABOUTME_PATH, CONTACT_PATH, HOME_PATH, PROJECTS_PATH } from '../../constants';
 import NavItems from './NavItems';
 import Theme from './Theme';
+import LogoTwo from '../../assets/logo2.png'
 
 
 
@@ -28,7 +29,8 @@ const Header = () => {
     <>
     <div className=' w-full py-2 px-8 flex justify-between items-center dark:bg-[#070F2B] bg-[#31363F]'>
       <ul className='flex items-center'>
-        <li><img className='h-20 w-15 mr-2' src="/src/assets/logo2.png" alt="" /></li>
+import LogoTwo from '../../assets/logo2.png'
+        <li><img className='h-20 w-15 mr-2' src={LogoTwo} alt="" /></li>
         <li><a className='text-3xl text-white space-x-10 font-bold '> KERLY</a></li>
       </ul>
       

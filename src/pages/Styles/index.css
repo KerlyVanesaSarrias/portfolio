@@ -1,5 +1,5 @@
 .brand {
-    @apply bg-[#00334E] uppercase text-white  p-1 rounded tracking-widest pr-16 inline-block mb-5;
+    @apply dark:bg-[#00334E]  bg-gray-700 uppercase text-white  p-1 rounded tracking-widest pr-16 inline-block mb-5 font-semibold;
 }
 
 .year-label {
@@ -24,3 +24,4 @@
     animation: typing 3s steps(13) 1s infinite alternate,
                 blink 0.75s step-end infinite;
 }
+

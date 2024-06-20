@@ -1,9 +1,7 @@
 
 import Button from "../components/Button/Button"
 import { FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa";
-
-
-
+import LogoImg from '../assets/logo3.png';
 
 const HomePage = () => {
     return (
@@ -24,7 +22,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div>
-                <img className="" src="/src/assets/logo3.png" alt="" />
+                <img className="" src={LogoImg} alt="" />
             </div>
     
         </div>

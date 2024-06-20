@@ -2,7 +2,15 @@ import React from 'react'
 import Button from '../components/Button/Button'
 import './Styles/index.css'
 
+
 const AboutMePage = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '../../public/Professional Modern CV Resume.pdf'; 
+    link.download = 'CV_Kerly_Sarrias.pdf'; 
+    link.click();
+  };
 
   return (
     <div className='w-full flex flex-col items-center gap-20 mt-10 px-4'>
@@ -12,7 +20,7 @@ const AboutMePage = () => {
           <h2 className="  dark:text-white  text-gray-700 font-bold uppercase text-3xl ">I am a full stack web developer and </h2>
           <h3 className='text-cyan-500 font-bold uppercase text-xl mb-3'>Agroindustrial Engineer.</h3>
           <p className="  dark:text-white  text-gray-700 ">I have extensive knowledge in a variety of key technologies. My experience ranges from front-end development with HTML, CSS, React and tools like Tailwind CSS and Bootstrap, to back-end development with JavaScript, Node.js, and SQL databases like MySQL and PostgreSQL, using Sequelize and Express.</p>
-          <Button className="mt-4" color="primary" size="small" isRounded>Downland CV</Button>
+          <Button onClick={handleDownload} className="mt-4" color="primary" size="small" isRounded>Downland CV</Button>
         </div>
       </div>
       <div className='w-full md:w-4/6 relative'>

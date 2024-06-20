@@ -29,7 +29,6 @@ const Header = () => {
     <>
     <div className=' w-full py-2 px-8 flex justify-between items-center dark:bg-[#070F2B] bg-[#31363F]'>
       <ul className='flex items-center'>
-import LogoTwo from '../../assets/logo2.png'
         <li><img className='h-20 w-15 mr-2' src={LogoTwo} alt="" /></li>
         <li><a className='text-3xl text-white space-x-10 font-bold '> KERLY</a></li>
       </ul>
@@ -51,8 +50,8 @@ import LogoTwo from '../../assets/logo2.png'
     </div>
     
         {isOpen && (
-          <div className='w-1/2 left-0 h-screen fixed top-0'>
-          <div className="md:hidden bg-gray-700 bg-opacity-50 flex flex-col h-full  text-white w-full ml-auto  p-4 gap-4">
+          <div className='w-1/2 left-0 h-screen fixed top-0 z-10'>
+          <div className="md:hidden bg-gray-700 flex flex-col h-full  text-white w-full ml-auto  p-4 gap-4">
             <NavItems text={'HOME'} onClick={() => handleChangePage(HOME_PATH)} isActive={selectedItem===HOME_PATH}/>
             <NavItems text={'ABOUT ME'} onClick={() => handleChangePage(ABOUTME_PATH)} isActive={selectedItem===ABOUTME_PATH}/>
             <NavItems text={'PROJECTS'} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>

@@ -3,8 +3,8 @@ import React from 'react'
 const InfContact = () => {
     return (
     <div >
-        <div className=' dark:text-white  text-gray-700'>
-            <h3 className=''>Información de contacto</h3>
+        <div className=' dark:text-white  text-gray-700 gap-10'>
+            <h3 className='text-cyan-500 font-bold'>Información de contacto</h3>
             <address>
                 <div>
                     <span>

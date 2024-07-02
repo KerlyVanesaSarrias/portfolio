@@ -21,7 +21,7 @@ const HomePage = () => {
                     <Button isOnlyIcon='icon' color='secondary'  ><FaWhatsapp/></Button>
                 </div>
             </div>
-            <div className="basis-full md:basis-2/5">
+            <div>
                 <img className="w-60 h-80" src={LogoImg} alt="" />
             </div>
     

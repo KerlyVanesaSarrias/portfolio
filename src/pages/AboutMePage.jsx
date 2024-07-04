@@ -23,10 +23,10 @@ const AboutMePage = () => {
           <Button onClick={handleDownload} className="mt-4" color="primary" size="small" isRounded>Downland CV</Button>
         </div>
       </div>
-      <div className='w-full md:w-4/6 relative'>
+      <div className= ' flex w-full md:w-4/6 relative'>
         <section className='w-full'>
           <h2 className="brand">Education</h2>
-          <div className='flex w-full gap-4'>
+          <div className='flex flex-col w-full gap-4'>
             <div className='basis-1/2  dark:text-white  text-gray-700 '>
               <h3 className='text-cyan-500 font-bold uppercase'>Academlo</h3>
               <p className='year-label font-semibold'>2024</p>
@@ -35,6 +35,7 @@ const AboutMePage = () => {
                 <li><a>Front-End Development with React</a></li>
                 <li><a>Back-End Development with Node.js</a></li>
                 <li><a>Foundations in HTML, CSS, and Javascript</a></li>
+                
               </ul> 
             </div>
             <div className='basis-1/2 dark:text-white  text-gray-700'>
@@ -45,9 +46,9 @@ const AboutMePage = () => {
             </div>
           </div>
         </section>
-        <section className='w-full my-8'>
+        <section className='w-full '>
           <h2 className="brand">Work experience</h2>
-          <div className='flex w-full gap-4'>
+          <div className='flex flex-col w-full gap-4'>
             <div className='basis-1/2  dark:text-white  text-gray-700'>
               <h4 className='text-cyan-500 font-bold uppercase'>Alma del Huila</h4>
               <p className='year-label font-semibold'>2023-2024</p>

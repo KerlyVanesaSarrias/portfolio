@@ -2,6 +2,8 @@
 import Button from "../components/Button/Button"
 import { FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa";
 import LogoImg from '../assets/logo3.png';
+import { Link } from "react-router-dom";
+import { CONTACT_PATH } from "../constants";
 
 const HomePage = () => {
     return (
@@ -17,10 +19,21 @@ const HomePage = () => {
                     Full Stack Web Developer with skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.
                 </p>
                 <div className="flex gap-3 mt-6">
-                    <Button color="primary" size="small" isRounded>Get in touch</Button>
-                    <Button isOnlyIcon='icon' color='secondary'  ><FaGithub/></Button>
-                    <Button isOnlyIcon='icon' color='secondary'  ><FaLinkedin/></Button>
+
+                    <Link to={CONTACT_PATH}>
+                        <Button color="primary" size="small" isRounded>Get in touch</Button>
+                    </Link>
+
+                    <a href="https://github.com/KerlyVanesaSarrias" target="_blank">
+                        <Button isOnlyIcon='icon' color='secondary'  ><FaGithub/></Button>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/kerly-vanessa-7ab012284/" target="_blank">
+                        <Button isOnlyIcon='icon' color='secondary'  ><FaLinkedin/></Button>
+                    </a>
+                    <a href="https://wa.me/+573143046748?text=Tu%20Mensaje%20De%20Texto" target="_blank">
                     <Button isOnlyIcon='icon' color='secondary'  ><FaWhatsapp/></Button>
+                    </a>
                 </div>
             </div>
             <div>

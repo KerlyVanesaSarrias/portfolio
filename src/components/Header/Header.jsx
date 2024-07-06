@@ -12,6 +12,7 @@ const Header = () => {
 
   const [selectedItem, setSelectedItem] = useState()
   const navigate = useNavigate();
+
   const handleChangePage = (routePath) => {
     console.log('routePath', routePath)
     navigate(routePath);
@@ -23,14 +24,16 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
-  
+  const closeMenu = () => {
+    setIsOpen(false);
+  }
 
   return (
     <>
-    <div className=' w-full py-2 px-8 flex justify-between items-center dark:bg-[#070F2B] bg-[#31363F]'>
+    <div className=' w-full py-2 px-8 flex justify-between items-center dark:bg-[#222] bg-[#31363F]'>
       <ul className='flex items-center'>
         <li><img className='h-20 w-15 mr-2' src={LogoTwo} alt="" /></li>
-        <li><a className='text-3xl text-white space-x-10 font-bold '> KERLY</a></li>
+        <li><a className='md:text-3xl text-xl text-white space-x-10 font-bold '> KERLY</a></li>
       </ul>
       
       <nav className='font-bold text-white cursor-pointer hidden md:flex space-x-8  ml-auto mr-5 '>
@@ -52,10 +55,10 @@ const Header = () => {
         {isOpen && (
           <div className='w-1/2 left-0 h-screen fixed top-0 z-10'>
           <div className="md:hidden bg-gray-700 flex flex-col h-full  text-white w-full ml-auto  p-4 gap-4">
-            <NavItems text={'HOME'} onClick={() => handleChangePage(HOME_PATH)} isActive={selectedItem===HOME_PATH}/>
-            <NavItems text={'ABOUT ME'} onClick={() => handleChangePage(ABOUTME_PATH)} isActive={selectedItem===ABOUTME_PATH}/>
-            <NavItems text={'PROJECTS'} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>
-            <NavItems text={'CONTACT'} onClick={() => handleChangePage(CONTACT_PATH)} isActive={selectedItem===CONTACT_PATH}/>
+            <NavItems text={'HOME'} onClick={() => {handleChangePage(HOME_PATH); closeMenu()}} isActive={selectedItem===HOME_PATH}/>
+            <NavItems text={'ABOUT ME'} onClick={() => {handleChangePage(ABOUTME_PATH); closeMenu()}} isActive={selectedItem===ABOUTME_PATH}/>
+            <NavItems text={'PROJECTS'} onClick={() => {handleChangePage(PROJECTS_PATH); closeMenu()}} isActive={selectedItem===PROJECTS_PATH}/>
+            <NavItems text={'CONTACT'} onClick={() => {handleChangePage(CONTACT_PATH); ; closeMenu()}} isActive={selectedItem===CONTACT_PATH}/>
           </div>
         </div>
       )}

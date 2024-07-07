@@ -9,6 +9,14 @@ export default {
   theme: {
     extend: {},
   },
+
+  variants: {
+    extend: {
+      maxHeight: ['responsive', 'hover', 'focus'],
+      opacity: ['responsive', 'hover', 'focus'],
+      transitionProperty: ['responsive', 'hover', 'focus'],
+    },
+  },
   plugins: [],
 }
 

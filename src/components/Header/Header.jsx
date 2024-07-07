@@ -4,6 +4,7 @@ import { ABOUTME_PATH, CONTACT_PATH, HOME_PATH, PROJECTS_PATH } from '../../cons
 import NavItems from './NavItems';
 import Theme from './Theme';
 import LogoTwo from '../../assets/logo2.png'
+import classNames from 'classnames';
 
 
 
@@ -28,6 +29,11 @@ const Header = () => {
     setIsOpen(false);
   }
 
+  const classesMenuMobile = classNames('w-1/2 top-0 transition-all h-screen fixed top-0 z-10', {
+    'left-0': isOpen,
+    '-left-full': !isOpen
+  })
+
   return (
     <>
     <div className=' w-full py-2 px-8 flex justify-between items-center dark:bg-[#222] bg-[#31363F]'>
@@ -36,7 +42,7 @@ const Header = () => {
         <li><a className='md:text-3xl text-xl text-white space-x-10 font-bold '> KERLY</a></li>
       </ul>
       
-      <nav className='font-bold text-white cursor-pointer hidden md:flex space-x-8  ml-auto mr-5 '>
+      <nav className='font-bold text-white cursor-pointer hidden md:flex space-x-8  ml-96 pl-52 mr-10'>
         <NavItems text={'HOME'} onClick={() => handleChangePage(HOME_PATH)} isActive={selectedItem===HOME_PATH}/>
         <NavItems text={'ABOUT ME'} onClick={() => handleChangePage(ABOUTME_PATH)} isActive={selectedItem===ABOUTME_PATH}/>
         <NavItems text={'PROJECTS'} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>
@@ -51,18 +57,14 @@ const Header = () => {
         </button>
       </div>
     </div>
-    
-        {isOpen && (
-          <div className='w-1/2 left-0 h-screen fixed top-0 z-10'>
-          <div className="md:hidden bg-gray-700 flex flex-col h-full  text-white w-full ml-auto  p-4 gap-4">
-            <NavItems text={'HOME'} onClick={() => {handleChangePage(HOME_PATH); closeMenu()}} isActive={selectedItem===HOME_PATH}/>
-            <NavItems text={'ABOUT ME'} onClick={() => {handleChangePage(ABOUTME_PATH); closeMenu()}} isActive={selectedItem===ABOUTME_PATH}/>
-            <NavItems text={'PROJECTS'} onClick={() => {handleChangePage(PROJECTS_PATH); closeMenu()}} isActive={selectedItem===PROJECTS_PATH}/>
-            <NavItems text={'CONTACT'} onClick={() => {handleChangePage(CONTACT_PATH); ; closeMenu()}} isActive={selectedItem===CONTACT_PATH}/>
-          </div>
-        </div>
-      )}
-    
+    <div className={classesMenuMobile}>
+      <div className="md:hidden bg-gray-700 flex flex-col h-full  text-white w-full ml-auto  p-4 gap-4">
+        <NavItems text={'HOME'} onClick={() => {handleChangePage(HOME_PATH); closeMenu()}} isActive={selectedItem===HOME_PATH}/>
+        <NavItems text={'ABOUT ME'} onClick={() => {handleChangePage(ABOUTME_PATH); closeMenu()}} isActive={selectedItem===ABOUTME_PATH}/>
+        <NavItems text={'PROJECTS'} onClick={() => {handleChangePage(PROJECTS_PATH); closeMenu()}} isActive={selectedItem===PROJECTS_PATH}/>
+        <NavItems text={'CONTACT'} onClick={() => {handleChangePage(CONTACT_PATH); ; closeMenu()}} isActive={selectedItem===CONTACT_PATH}/>
+      </div>
+    </div>
     </>
   )
 }

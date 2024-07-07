@@ -7,18 +7,19 @@ import { CONTACT_PATH } from "../constants";
 
 const HomePage = () => {
     return (
-        <div className='w-full flex flex-col md:flex-row  items-center justify-center px-8 py-10'>
+        <div className='w-full flex flex-col md:flex-row  items-center justify-center px-7 py-10'>
             <div className="basis-full md:basis-3/5">
                 <h1 className="brand">Kerly Sarrias</h1>
-                <h2 className=" dark:text-white  text-gray-700 font-bold uppercase text-3xl md:text-6xl ">Hay! i am Kerly Vanessa Sarrias</h2>
+                <h2 className=" dark-text font-bold uppercase text-3xl md:text-6xl ">Hay! i am Kerly Vanessa Sarrias</h2>
                 <div className="flex gap-3">
                     <h3 className=" text-cyan-500 font-bold uppercase text-3xl md:text-6xl">I'm</h3>
                     <h4 className="text-cyan-500 font-bold uppercase text-3xl md:text-6xl home_animation typing">a developer</h4>
                 </div>
-                <p className=" dark:text-white  text-gray-700 font-normal text-xl leading-normal tracking-wider mt-4 " >
+                <p className=" dark-text font-normal text-xl text-justify leading-normal tracking-wider mt-4 " >
                     Full Stack Web Developer with skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.
                 </p>
-                <div className="flex gap-3 mt-6">
+
+                <div className="flex gap-3 mt-8">
 
                     <Link to={CONTACT_PATH}>
                         <Button color="primary" size="small" isRounded>Get in touch</Button>

@@ -25,3 +25,9 @@
                 blink 0.75s step-end infinite;
 }
 
+.dark-text {
+    @apply  dark:text-white  text-gray-700 
+}
+.dark-target {
+    @apply dark:bg-gray-800 bg-gray-300
+}

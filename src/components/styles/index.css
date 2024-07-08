@@ -1,3 +1,20 @@
+
 .dark-input {
-    @apply w-full border border-gray-500 rounded-md p-2 dark:bg-gray-700   bg-gray-300 dark:text-white text-gray-700  
+    @apply w-full border-2 dark:border-gray-500 shadow-xl border-gray-300 rounded-md p-2 dark:bg-transparent bg-gray-300 dark:text-white text-gray-700;
+}
+
+.project-container {
+    @apply transform md:transition-transform md:duration-75 md:hover:scale-105 inline-block  w-auto h-auto m-4 p-3.5 bg-white rounded-lg 
+}
+
+.project-image {
+        @apply w-full h-auto object-cover rounded-lg  drop-shadow-2xl
+}
+
+.project-tittle {
+    @apply text-lg font-bold text-gray-800
+}
+
+.project-description {
+    @apply text-sm text-gray-600 inline-block
 }

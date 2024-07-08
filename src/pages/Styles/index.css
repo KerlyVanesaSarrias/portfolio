@@ -1,5 +1,5 @@
 .brand {
-    @apply dark:bg-[#272727]  bg-gray-700 uppercase text-white  p-1 rounded tracking-widest pr-16 inline-block mb-5 font-semibold;
+    @apply uppercase dark-text border-gray-500   border-b-2 w-auto font-bold text-2xl
 }
 
 .year-label {

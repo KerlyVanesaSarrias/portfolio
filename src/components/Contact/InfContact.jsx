@@ -5,7 +5,7 @@ import { MdOutlinePhoneAndroid, MdOutlineMail, MdOutlineLocationOn   } from "rea
 
 const InfContact = () => {
     return (
-    <div className='max-w-md ml-20' >
+    <div className='max-w-md pl-20' >
         <div className=' dark-text gap-10 w-96'>
             <h3 className='brand inline-block  text-base'>CONTACT INFORMATION</h3>
             <address>

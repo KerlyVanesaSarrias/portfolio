@@ -78,7 +78,7 @@ import 'swiper/css/scrollbar';
 
 export default () => {
     return (
-        <Swiper
+        <Swiper className='md:pl-10 pl-24 mt-10 md:mt-0 pr-24 flex-wrap'
 
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
@@ -92,28 +92,36 @@ export default () => {
             breakpoints={{
                 320: {
                     slidesPerView: 1,
-                    spaceBetween: 10,
+                    spaceBetween: 50,
                 },
                 480: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
+                    slidesPerView: 1,
+                    spaceBetween: 100,
                 },
                 640: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
+                    slidesPerView: 2,
+                    spaceBetween: 150,
                 },
-                1024: {
+                1200: {
                     slidesPerView: 3,
-                    spaceBetween: 50,
+                    spaceBetween: 75,
                 },
             }}
         >
-            <div className='md:flex-row flex-col'>
-                <SwiperSlide className='' >
-                    <a href='https://fortune-cookie-omega.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
-                        <img src={Fortune} className="project-image" />
-                        <h2 className="project-tittle">Fortune Cookie</h2>
-                        <p className="project-description">A web app that generates random fortune cookie messages</p>
+            <div className=''>
+            <SwiperSlide>
+                <a href='https://pokedex-omega-khaki.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
+                        <img src={Pokedex} className="project-image" />
+                        <h2 className="project-tittle">Pokedex</h2>
+                        <p className="project-description">A web app that displays information about Pokémons</p>
+                        <p className="project-description" >Tecnologies: React, JavaScript, CSS, HTML</p>
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                <a href='https://rick-and-morty-app-pi-umber.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
+                        <img src={RickAndMorty} className="project-image" />
+                        <h2 className="project-tittle">Rick and Morty App</h2>
+                        <p className="project-description">A web app that displays characters and episodes from the Rick and Morty TV series</p>
                         <p className="project-description" >Tecnologies: React, JavaScript, CSS, HTML</p>
                     </a>
                 </SwiperSlide>
@@ -125,20 +133,20 @@ export default () => {
                         <p className="project-description" >Tecnologies: React, JavaScript, CSS, HTML</p>
                     </a>
                 </SwiperSlide>
-                <SwiperSlide>
-                <a href='https://users-crud-three.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
-                        <img src={User} className="project-image" />
-                        <h2 className="project-tittle">Weather App</h2>
-                        <p className="project-description">A web app that displays current weather and forecast for a given location</p>
+                <SwiperSlide className='' >
+                    <a href='https://fortune-cookie-omega.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container ">
+                        <img src={Fortune} className="project-image" />
+                        <h2 className="project-tittle">Fortune Cookie</h2>
+                        <p className="project-description">A web app that generates random fortune cookie messages</p>
                         <p className="project-description" >Tecnologies: React, JavaScript, CSS, HTML</p>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                <a href='https://weather-app-pi-ten-18.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
-                        <img src={Weather} className="project-image" />
-                        <h2 className="project-tittle">Weather App</h2>
-                        <p className="project-description">A web app that displays current weather and forecast for a given location</p>
-                        <p className="project-description" >Tecnologies: React, JavaScript, CSS, HTML</p>
+                <a href='https://users-crud-three.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
+                        <img src={User} className="project-image" />
+                        <h2 className="project-tittle">User App</h2>
+                        <p className="project-description">A web app that allows users to create, read, update and delete user data</p>
+                        <p className="project-description" >Tecnologies: React, JavaScript, CSS, HTML, Node.js, MySQL, Sequilize</p>
                     </a>
                 </SwiperSlide>
             </div>

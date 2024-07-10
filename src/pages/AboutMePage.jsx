@@ -49,8 +49,11 @@ const AboutMePage = () => {
               </div>
               <h3 className="text-lg font-bold mb-2">Agro-industrial engineering</h3>
               <p className="">
-              I did the professional internship for 6 months and worked the next 6 months in the natural coffee processing area of +the company. I was leading a large group of workers in the area, with whom I developed work strategies that helped improve communication, 
-              effectiveness and performance of the processes. I managed to improve my teamwork skills and learned about the importance of effective communication.
+              During my engineering career, I have developed solid skills in problem analysis and resolution, 
+              solution design and development, and use of specialized tools and technologies. 
+              I gained experience in research, experimentation and project management,
+              standing out for my ability to communicate effectively and work as a team. My background includes
+              a strong ethical commitment, adaptability and a focus on innovation, with a deep understanding of global and social contexts, as well as the implementation of quality management systems.
               </p>
             </div>
           </div>
@@ -65,8 +68,9 @@ const AboutMePage = () => {
             </div>
             <h3 className="text-lg font-bold mb-2">Head of specialty coffee processing</h3>
             <p  className='text-base'>
-              I did the professional internship for 6 months and worked the next 6 months in the natural coffee processing area of the company. 
-              I was in charge of 20 people with whom I developed work strategies that helped improve communication, effectiveness and performance. of the processes.
+            I did the professional internship for 6 months and worked the next 6 months in the natural coffee processing area of the company.
+            I was leading a large group of workers in the area, with whom I developed work strategies that helped improve communication, effectiveness and performance of the processes. I managed
+            to improve my teamwork skills and learned about the importance of effective communication.
             </p>
           </div>
           <div className="dark-target rounded-lg p-4">

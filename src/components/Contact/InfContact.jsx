@@ -9,7 +9,7 @@ const InfContact = () => {
         <div className=' dark-text gap-10 w-96'>
             <h3 className='brand inline-block  text-base'>CONTACT INFORMATION</h3>
             <address>
-                <div className='mb-5'>
+                <div className='mb-5 mt-10'>
                     <span className='flex gap-4'>
                         <FaWhatsapp className='text-3xl text-cyan-500'/>  
                         <a href="https://wa.me/+573143046748?text=Tu%20Mensaje%20De%20Texto" target="_blank">Send message to

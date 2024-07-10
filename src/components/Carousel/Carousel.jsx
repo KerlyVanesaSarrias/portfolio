@@ -99,7 +99,7 @@ export default () => {
                     spaceBetween: 100,
                 },
                 640: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                     spaceBetween: 150,
                 },
                 1200: {

@@ -51,9 +51,9 @@ const FormContact = () => {
 
     return (
         <>
-        <div className="max-w-md ml-20">
+        <div className=" w-full p-10 ">
 
-            <form onSubmit={handleSubmit} className="space-y-4  ">
+            <form onSubmit={handleSubmit} className="space-y-4  md:pl-20 md:pr-20 pl-1 pr-1 ">
                 <div>
                     <label htmlFor="name" className="block font-semibold dark-text">Name</label>
                     <input type="text" id="name"  name="name" value={formData.name} onChange={handleChange}   className=" dark-input italic " />

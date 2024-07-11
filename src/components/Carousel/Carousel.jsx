@@ -78,8 +78,7 @@ import 'swiper/css/scrollbar';
 
 export default () => {
     return (
-        <Swiper className='md:pl-10 pl-24 mt-10 md:mt-0 pr-24  gap-28 flex-wrap'
-
+        <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
             slidesPerView={3}
@@ -88,7 +87,6 @@ export default () => {
             scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
-
             breakpoints={{
                 320: {
                     slidesPerView: 1,
@@ -109,7 +107,7 @@ export default () => {
             }}
         >
             <div className=''>
-            <SwiperSlide>
+                <SwiperSlide>
                 <a href='https://pokedex-omega-khaki.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
                         <img src={Pokedex} className="project-image" />
                         <h2 className="project-tittle">Pokedex</h2>

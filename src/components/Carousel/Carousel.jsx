@@ -1,23 +1,4 @@
 
-// import { Autoplay, Pagination } from 'swiper/modules';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-
-
-
-
-//     const Carousel = () => {
-
-
-
-//     return (
-
-
-
-//     );
-// };
-
-// export default Carousel;
 
 import React from 'react';
 import Fortune from '../../assets/Fortune cookie.png'
@@ -30,50 +11,12 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-// const projects = [
-//     {
-//         id: 1,
-//         image: [Fortune],
-//         link: 'https://fortune-cookie-omega.vercel.app/',
-//         title: 'Fortune Cookie',
-//         description: 'A web app that generates random fortune cookie messages'
-//     },
-//     // {
-//     //     id: 2,
-//     //     image: [Weather],
-//     //     link: 'https://weather-app-pi-ten-18.vercel.app/',
-//     //     title: 'Weather App',
-//     //     description: 'A web app that displays current weather and forecast for a given location'
-//     // },
-//     {
-//         id: 3,
-//         image: [User],
-//         link: 'https://users-crud-three.vercel.app/',
-//         title: 'Users CRUD',
-//         description: 'A web app that allows users to create, read, update and delete user data',
-
-//     },
-//     {
-//         id: 4,
-//         image: [RickAndMorty],
-//         link: 'https://rick-and-morty-app-pi-umber.vercel.app/',
-//         title: 'Rick and Morty App',
-//         description: 'A web app that displays characters and episodes from the Rick and Morty TV series'
-//     },
-//     {
-//         id: 5,
-//         image: [Pokedex],
-//         link: 'https://pokedex-omega-khaki.vercel.app/',
-//         title: 'Pokedex',
-//         description: 'A web app that displays information about Pokémons'
-//     },
-// ]
 
 
 export default () => {
@@ -142,9 +85,9 @@ export default () => {
                 <SwiperSlide>
                 <a href='https://users-crud-three.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
                         <img src={User} className="project-image" />
-                        <h2 className="project-tittle">User App</h2>
-                        <p className="project-description">A web app that allows users to create, read, update and delete user data</p>
-                        <p className="project-description" >Tecnologies: React, JavaScript, CSS, HTML, Node.js, MySQL, Sequilize</p>
+                        <h2 className="project-tittle -mb-1">User App</h2>
+                        <p className="project-description ">A web app that allows users to create, read, update and delete user data   Tecnologies: React, JavaScript, CSS, HTML, Node.js, MySQL, Sequilize</p>
+                        <p className="project-description -mt-2" >Tecnologies: React, JavaScript, CSS, HTML, Node.js, MySQL, Sequilize</p>
                     </a>
                 </SwiperSlide>
             </div>

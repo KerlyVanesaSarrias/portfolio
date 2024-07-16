@@ -86,7 +86,7 @@ export default () => {
                 <a href='https://users-crud-three.vercel.app/' target="_blank" rel="noopener noreferrer" className="project-container">
                         <img src={User} className="project-image" />
                         <h2 className="project-tittle -mb-1">User App</h2>
-                        <p className="project-description ">A web app that allows users to create, read, update and delete user data   Tecnologies: React, JavaScript, CSS, HTML, Node.js, MySQL, Sequilize</p>
+                        <p className="project-description ">A web app that allows users to create, read, update and delete user data   </p>
                         <p className="project-description -mt-2" >Tecnologies: React, JavaScript, CSS, HTML, Node.js, MySQL, Sequilize</p>
                     </a>
                 </SwiperSlide>

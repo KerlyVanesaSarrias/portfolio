@@ -8,7 +8,7 @@
 }
 
 .project-image {
-        @apply w-full md:h-52 h-52 object-cover rounded-lg  drop-shadow-2xl
+        @apply w-full md:h-52 h-3/4 object-cover rounded-lg  drop-shadow-2xl
 }
 
 .project-tittle {

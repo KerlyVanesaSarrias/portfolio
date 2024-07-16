@@ -78,7 +78,7 @@ import 'swiper/css/scrollbar';
 
 export default () => {
     return (
-        <Swiper
+        <Swiper className='px-10'
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
             slidesPerView={3}

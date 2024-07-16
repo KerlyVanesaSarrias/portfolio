@@ -16,7 +16,7 @@
 }
 
 .project-description {
-    @apply md:text-sm text-xs inline-block
+    @apply md:text-sm text-base inline-block
 }
 .dark-text {
     @apply  dark:text-white  text-gray-700 

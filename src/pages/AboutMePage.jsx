@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../components/Button/Button'
 import './Styles/index.css'
+import SkillsParticles from '../components/SkillsParticules/SkillsParticles';
 
 
 const AboutMePage = () => {
@@ -15,13 +16,17 @@ const AboutMePage = () => {
   return (
   
 <div className='w-full flex flex-col  gap-20 pt-10 pl-5'>
-  <div className='w-full md:w-1/2'>
-    <h1 className="brand">About Me</h1>
-    <div className='flex flex-col w-full gap-1  p-8'>
+<h1 className="brand">About Me</h1>
+
+  <div className='flex'>
+    <div className='flex flex-col gap-1 p-8 w-1/2'>
       <h2 className="  dark-text  font-bold uppercase text-4xl ">I am a full stack web developer and </h2>
       <h3 className='text-cyan-500 font-bold uppercase text-2xl mb-3'>Agroindustrial Engineer.</h3>
       <p className=" dark-text  text-lg text-justify ">I have extensive knowledge in a variety of key technologies. My experience ranges from front-end development with HTML, CSS, React and tools like Tailwind CSS and Bootstrap, to back-end development with JavaScript, Node.js, and SQL databases like MySQL and PostgreSQL, using Sequelize and Express.</p>
       <Button onClick={handleDownload} className="mt-8" color="primary" size="small" isRounded>Downland CV</Button>
+    </div>
+    <div className='flex w-1/2'>
+      <SkillsParticles/>
     </div>
   </div>
 

@@ -1,19 +1,28 @@
 
-import React, { useCallback, useRef } from 'react';
+import React, { useCallback, useEffect, useRef } from 'react';
 import { useSprings, animated } from 'react-spring';
-import { FaReact, FaCss3Alt, FaHtml5, FaGitAlt } from 'react-icons/fa';
+import { FaReact,FaNodeJs, FaCss3Alt, FaHtml5, FaGithub } from 'react-icons/fa';
+import { DiPostgresql } from "react-icons/di";
+import { SiTailwindcss, SiJavascript } from "react-icons/si";
+import { useMediaQuery } from 'react-responsive';
 
 const skills = [
     { name: 'React', icon: FaReact },
     { name: 'CSS3', icon: FaCss3Alt },
     { name: 'HTML5', icon: FaHtml5 },
-    { name: 'Git', icon: FaGitAlt },
+    { name: 'Git', icon: FaGithub },
+    { name: 'Node.js', icon: FaNodeJs },
+    { name: 'Postgresql', icon: DiPostgresql },
+    { name: 'Tailwindcss', icon: SiTailwindcss},
+    { name: 'Javascript', icon: SiJavascript},
 ];
 
 const getRandomDuration = () => Math.random() * 5000 + 5000;
 
+
 const SkillsParticles = () => {
     const containerRef = useRef(null);
+
 
     const getRandomPosition = useCallback(() => {
         if(containerRef.current) {
@@ -22,7 +31,7 @@ const SkillsParticles = () => {
                 y: Math.random() * containerRef.current.innerHeight,
             }
         }
-        return { x: 0, y: 0}
+        return { x: 100, y: 100}
     }, []);
 
     const springs = useSprings(
@@ -35,7 +44,8 @@ const SkillsParticles = () => {
                 to: async (next) => {
                     while (true) {
                         await next({
-                            transform: `translate3d(${Math.random() * 665}px, ${Math.random() * 420}px, 0)`,
+                            transform: 
+                             `translate3d(${Math.random() * 250}px, ${Math.random() * 300}px, 0)`,
                             opacity: Math.random() * 0.5 + 0.5,
                             config: { duration: getRandomDuration() },
                         });
@@ -46,21 +56,26 @@ const SkillsParticles = () => {
         })
     );
 
+    useEffect(() => {
+        console.log('container', containerRef.current.innerWidth)
+    }, [])
+
     return (
-        <div className="w-full h-full overflow-hidden bg-gray-900  rounded-full border-cyan-500" ref={containerRef}>
-            {springs.map((props, index) => {
-                const IconComponent = skills[index].icon;
-                return (
-                    <animated.div
-                        key={index}
-                        className="absolute will-change-transform"
-                        style={props}
-                    >
-                        <IconComponent className="w-12 h-12 text-white" />
-                    </animated.div>
-                );
-            })}
-        </div>
+
+            <div className="w-full md:h-full h-96 overflow-hidden dark:bg-gray-700 bg-slate-300 md:p-10 p-2 rounded-full" ref={containerRef}>
+                {springs.map((props, index) => {
+                    const IconComponent = skills[index].icon;
+                    return (
+                        <animated.div
+                            key={index}
+                            className="absolute will-change-transform"
+                            style={props}
+                        >
+                            <IconComponent className="w-12 h-12 dark-text" />
+                        </animated.div>
+                    );
+                })}
+            </div>
     );
 };
 

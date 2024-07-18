@@ -18,15 +18,17 @@ const AboutMePage = () => {
 <div className='w-full flex flex-col  gap-20 pt-10 pl-5'>
 <h1 className="brand">About Me</h1>
 
-  <div className='flex'>
-    <div className='flex flex-col gap-1 p-8 w-1/2'>
+  <div className='flex flex-col md:flex-row'>
+    <div className='flex flex-col gap-1 md:w-1/2 w-full p-4'>
       <h2 className="  dark-text  font-bold uppercase text-4xl ">I am a full stack web developer and </h2>
       <h3 className='text-cyan-500 font-bold uppercase text-2xl mb-3'>Agroindustrial Engineer.</h3>
       <p className=" dark-text  text-lg text-justify ">I have extensive knowledge in a variety of key technologies. My experience ranges from front-end development with HTML, CSS, React and tools like Tailwind CSS and Bootstrap, to back-end development with JavaScript, Node.js, and SQL databases like MySQL and PostgreSQL, using Sequelize and Express.</p>
       <Button onClick={handleDownload} className="mt-8" color="primary" size="small" isRounded>Downland CV</Button>
     </div>
-    <div className='flex w-1/2'>
-      <SkillsParticles/>
+
+    <div className=' w-full md:w-1/2 md:px-36 px-5 flex-col justify-center items-center  '>
+      <h2 className='brand mb-2'>Skills</h2>
+      <SkillsParticles className=''/>
     </div>
   </div>
 

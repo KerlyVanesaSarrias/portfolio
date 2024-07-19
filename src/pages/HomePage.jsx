@@ -7,10 +7,10 @@ import { CONTACT_PATH } from "../constants";
 
 const HomePage = () => {
     return (
-        <div className='w-full flex flex-col md:flex-row  items-center justify-center px-7 py-10'>
+        <div className='w-full flex flex-col md:flex-row  items-center justify-center px-7 py-10 lg:px-14 lg:py-20'>
             <div className="basis-full md:basis-3/5">
                 <h1 className="brand">Kerly Sarrias</h1>
-                <h2 className=" dark-text font-bold uppercase text-3xl md:text-6xl ">Hay! i am Kerly Vanessa Sarrias</h2>
+                <h2 className=" dark-text font-bold uppercase text-3xl md:text-6xl ">Hi! i am Kerly Vanessa Sarrias</h2>
                 <div className="flex gap-3">
                     <h3 className=" text-cyan-500 font-bold uppercase text-3xl md:text-6xl">I'm</h3>
                     <h4 className="text-cyan-500 font-bold uppercase text-3xl md:text-6xl home_animation typing">a developer</h4>

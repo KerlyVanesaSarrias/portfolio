@@ -28,7 +28,7 @@ const AboutMePage = () => {
 
     <div className=' w-full md:w-1/2 md:px-36 px-5 flex-col justify-center items-center  '>
       <h2 className='brand mb-2'>Skills</h2>
-      <SkillsParticles className=''/>
+      <SkillsParticles />
     </div>
   </div>
 

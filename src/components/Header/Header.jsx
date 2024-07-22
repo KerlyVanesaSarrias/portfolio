@@ -48,7 +48,14 @@ const Header = () => {
           <NavItems text={'PROJECTS'} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>
           <NavItems text={'CONTACT'} onClick={() => handleChangePage(CONTACT_PATH)} isActive={selectedItem===CONTACT_PATH}/>
         </nav>
-        <div className=''><Theme/></div>
+        <div className='mr-5'><Theme/></div>
+        <div className="md:hidden">
+        <button  onClick={toggleMenu} className="focus:outline-none text-white ">
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
 
       </div>
     </div>

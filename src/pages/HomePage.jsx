@@ -38,7 +38,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="2xl:w-1/4">
-                <img className="w-60 h-80 2xl:w-full 2xl:h-full" src={LogoImg} alt="" />
+                <img className="w-70 h-70 2xl:w-full 2xl:h-full pl-10" src={LogoImg} alt="" />
             </div>
     
         </div>

@@ -22,7 +22,7 @@ const getRamdomInitialPorisionts = () => {
     return skills.map(() => ({x: Math.random() * 300, y: Math.random() * 300}));
 }
 
-const SkillsParticles = () => {
+const   SkillsParticles = () => {
     const [initialPositions, setInitialPositions] = useState(getRamdomInitialPorisionts());
     const containerRef = useRef(null);
 
@@ -66,7 +66,7 @@ const SkillsParticles = () => {
     }, [getRandomPosition]);
 
     return (
-        <div className="relative md:w-full md:h-full w-80 h-80 overflow-hidden dark:bg-gray-800 bg-slate-300 rounded-lg " ref={containerRef}>
+        <div className="relative md:w-full md:h-full w-80 h-80 overflow-hidden dark:bg-gray-800 bg-slate-300 rounded-lg justify-center items-center " ref={containerRef}>
         {springs.map((props, index) => {
             const IconComponent = skills[index].icon;
             return (
@@ -75,7 +75,7 @@ const SkillsParticles = () => {
                     className="absolute will-change-transform"
                     style={props}
                 >
-                    <IconComponent className="w-12 h-12 dark:text-white text-black" />
+                    <IconComponent className="w-14 h-14 2xl:w-20 2xl:h-20  dark:text-white text-black" />
                 </animated.div>
             );
         })}

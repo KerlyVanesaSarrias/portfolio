@@ -3,7 +3,7 @@
 }
 
 .year-label {
-    @apply border-2 text-sm inline-block rounded-full border-cyan-500 py-1 px-4 my-2;
+    @apply border-2 text-sm  2xl:text-xl inline-block rounded-full border-cyan-500 py-1 px-4 my-2;
 }
 
 
@@ -28,6 +28,9 @@
 .dark-text {
     @apply  dark:text-white  text-gray-700 
 }
-.dark-target {
-    @apply dark:bg-gray-800 bg-gray-300
+.container-e {
+    @apply dark:bg-gray-800 bg-gray-300  rounded-lg p-4 mb-10
+}
+.text-blue {
+    @apply text-[#008DDA]
 }

@@ -53,25 +53,25 @@ const FormContact = () => {
         <>
         <div className=" w-full pt-10">
 
-            <form onSubmit={handleSubmit} className="space-y-4  md:pl-20 md:pr-20 pl-1 pr-1 ">
+            <form onSubmit={handleSubmit} className="space-y-4  md:pl-20 md:pr-20 pl-1 pr-1 2xl:pr-96">
                 <div>
-                    <label htmlFor="name" className="block font-semibold dark-text">Name</label>
-                    <input type="text" id="name"  name="name" value={formData.name} onChange={handleChange}   className=" dark-input italic " />
+                    <label htmlFor="name" className="tittle-input dark-text dark-text">Name</label>
+                    <input dark-text type="text" id="name"  name="name" value={formData.name} onChange={handleChange}   className=" dark-input dark-text italic " />
 
                 </div>
                 <div>
-                    <label htmlFor="email" className="block font-semibold dark-text  ">Email</label>
-                    <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className=" dark-input italic " />
+                    <label htmlFor="email" className="tittle-input dark-text dark-text  ">Email</label>
+                    <input dark-text type="email" id="email" name="email" value={formData.email} onChange={handleChange} className=" dark-input dark-text italic " />
                 </div>
                 <div>
-                    <label htmlFor="subject" className="block font-semibold dark-text">Subject</label>
-                    <input type="text" id="subject" name="subject" value={formData.subject} onChange={handleChange} className=" dark-input italic" />
+                    <label htmlFor="subject" className="tittle-input dark-text dark-text">Subject</label>
+                    <input dark-text type="text" id="subject" name="subject" value={formData.subject} onChange={handleChange} className=" dark-input dark-text italic" />
                 </div>
                 <div>
-                    <label htmlFor="message" className="block font-semibold dark-text">Message</label>
-                    <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="4" className=" dark-input italic"></textarea>
+                    <label htmlFor="message" className="tittle-input dark-text dark-text">Message</label>
+                    <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows="4" className=" dark-input dark-text italic"></textarea>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center pb-10">
                     <Button type="submit"color="primary" size="small" disabled={isSending}>{isSending ? 'Sending...' : 'Send'}</Button>
                     {isSuccess && <p className="text-cyan-400  year-label font-semibold">Message sent successfully!</p>}
                     {error && <p className="text-red-500">{error}</p>}

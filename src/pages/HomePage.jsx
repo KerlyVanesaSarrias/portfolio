@@ -7,15 +7,15 @@ import { CONTACT_PATH } from "../constants";
 
 const HomePage = () => {
     return (
-        <div className='w-full flex flex-col md:flex-row  items-center justify-center px-7 py-10 lg:px-14 lg:py-20'>
-            <div className="basis-full md:basis-3/5">
+        <div className='basis-full 2xl:basis-3/5 flex flex-col md:flex-row  items-center justify-center  py-10 '>
+            <div className="basis-full md:basis-3/5  2xl:w-3/4  ">
                 <h1 className="brand">Kerly Sarrias</h1>
-                <h2 className=" dark-text font-bold uppercase text-3xl md:text-6xl ">Hi! i am Kerly Vanessa Sarrias</h2>
+                <h2 className=" dark-text font-bold uppercase text-3xl md:text-6xl 2xl:text-9xl ">Hi! i am Kerly Vanessa Sarrias</h2>
                 <div className="flex gap-3">
-                    <h3 className=" text-cyan-500 font-bold uppercase text-3xl md:text-6xl">I'm</h3>
-                    <h4 className="text-cyan-500 font-bold uppercase text-3xl md:text-6xl home_animation typing">a developer</h4>
+                    <h3 className=" text-cyan-500 font-bold uppercase text-3xl md:text-6xl 2xl:text-8xl ">I'm</h3>
+                    <h4 className="text-cyan-500 font-bold uppercase text-3xl md:text-6xl 2xl:text-8xl home_animation typing">a developer</h4>
                 </div>
-                <p className=" dark-text font-normal text-xl text-justify leading-normal tracking-wider mt-4 " >
+                <p className=" dark-text font-normal text-xl 2xl:text-4xl text-justify leading-normal tracking-wider mt-4 " >
                     Full Stack Web Developer with skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.
                 </p>
 
@@ -37,8 +37,8 @@ const HomePage = () => {
                     </a>
                 </div>
             </div>
-            <div>
-                <img className="w-60 h-80" src={LogoImg} alt="" />
+            <div className="2xl:w-1/4">
+                <img className="w-60 h-80 2xl:w-full 2xl:h-full" src={LogoImg} alt="" />
             </div>
     
         </div>

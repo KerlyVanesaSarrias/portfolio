@@ -38,23 +38,18 @@ const Header = () => {
     <>
     <div className=' w-full py-2 px-8 flex justify-between items-center dark:bg-[#222] bg-[#31363F]'>
       <ul className='flex items-center'>
-        <li><img className='h-20 w-15 mr-2' src={LogoTwo} alt="" /></li>
-        <li><a className='md:text-3xl text-xl text-white space-x-10 font-bold '> KERLY</a></li>
+        <li><img className='h-20 w-15  mr-2' src={LogoTwo} alt="" /></li>
+        <li><a className='md:text-3xl text-xl 2xl:text-3xl text-white space-x-10 font-bold '> KERLY</a></li>
       </ul>
-      
-      <nav className='font-bold text-white cursor-pointer hidden md:flex space-x-8  ml-96 pl-52 mr-10'>
-        <NavItems text={'HOME'} onClick={() => handleChangePage(HOME_PATH)} isActive={selectedItem===HOME_PATH}/>
-        <NavItems text={'ABOUT ME'} onClick={() => handleChangePage(ABOUTME_PATH)} isActive={selectedItem===ABOUTME_PATH}/>
-        <NavItems text={'PROJECTS'} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>
-        <NavItems text={'CONTACT'} onClick={() => handleChangePage(CONTACT_PATH)} isActive={selectedItem===CONTACT_PATH}/>
-      </nav>
-      <div className='ml-auto mr-4 '><Theme/></div>
-      <div className="md:hidden">
-        <button  onClick={toggleMenu} className="focus:outline-none  text-white ">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-          </svg>
-        </button>
+      <div className='flex'>
+        <nav className='font-bold text-white 2xl:text-2xl cursor-pointer hidden md:flex space-x-8 2xl:space-x-12   pl-52 mr-10'>
+          <NavItems text={'HOME'} onClick={() => handleChangePage(HOME_PATH)} isActive={selectedItem===HOME_PATH}/>
+          <NavItems text={'ABOUT ME'} onClick={() => handleChangePage(ABOUTME_PATH)} isActive={selectedItem===ABOUTME_PATH}/>
+          <NavItems text={'PROJECTS'} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>
+          <NavItems text={'CONTACT'} onClick={() => handleChangePage(CONTACT_PATH)} isActive={selectedItem===CONTACT_PATH}/>
+        </nav>
+        <div className=''><Theme/></div>
+
       </div>
     </div>
     <div className={classesMenuMobile}>

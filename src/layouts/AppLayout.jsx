@@ -5,9 +5,11 @@ import Footer from '../components/Footer/Footer'
 
 const AppLayout = () => {
   return (
-    <div className='container-layout w-full dark:bg-[#31363F] bg-[#eeee] flex-col justify-between'>
+    <div className=' flex flex-col min-h-screen w-full dark:bg-[#31363F] bg-[#eeeeee]" '>
         <Header />
-        <Outlet/>
+        <div className="flex-grow">
+          <Outlet/>
+        </div>
         <Footer/>
     </div>
   )

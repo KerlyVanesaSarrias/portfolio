@@ -15,7 +15,7 @@ const HomePage = () => {
                     <h3 className=" text-blue font-bold uppercase text-3xl md:text-6xl 2xl:text-8xl ">I'm</h3>
                     <h4 className="text-blue font-bold uppercase text-3xl md:text-6xl 2xl:text-8xl home_animation typing">a developer</h4>
                 </div>
-                <p className=" dark-text uppercase font-normal text-xl 2xl:text-4xl text-justify leading-normal tracking-wider mt-4 " >
+                <p className=" dark-text  font-normal text-xl 2xl:text-4xl text-justify leading-normal tracking-wider mt-4 " >
                     Full Stack Web Developer with skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.
                 </p>
 

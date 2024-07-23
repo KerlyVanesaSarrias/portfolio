@@ -8,7 +8,7 @@ import { CONTACT_PATH } from "../constants";
 const HomePage = () => {
     return (
         <div className='basis-full 2xl:basis-3/5 flex flex-col md:flex-row  items-center justify-center  py-10 '>
-            <div className="basis-full md:basis-3/5  2xl:w-3/4  ">
+            <div className="basis-full md:basis-3/5  2xl:w-3/4 px-10 ">
                 <h1 className="brand">Kerly Sarrias</h1>
                 <h2 className=" dark-text font-bold uppercase text-3xl md:text-6xl 2xl:text-9xl ">Hi! i am Kerly Vanessa Sarrias</h2>
                 <div className="flex gap-3">

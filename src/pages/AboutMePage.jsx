@@ -67,30 +67,30 @@ const AboutMePage = () => {
       <div className="w-full md:w-1/2"> 
         <h2 className=" font-bold mb-4 brand">Experience</h2>
         <div className="flex flex-col gap-4 dark-text">
+          
           <div className="container-e">
             <div className="flex justify-between items-center mb-2">
-              <div className="font-bold 2xl:text-3xl text-blue">AlMA DEL HUILA S.A.S</div>
-              <div className="year-label font-semibold">2023 - 2024</div>
+              <div className="font-bold 2xl:text-3xl text-blue">GOBLIN</div>
+              <div className="year-label font-semibold">December 2023 - March 2024</div>
             </div>
-            <h3 className="text-lg 2xl:text-3xl  font-bold mb-2">Head of specialty coffee processing</h3>
-            <p  className='text-base  2xl:text-2xl'>
-            I did the professional internship for 6 months and worked the next 6 months in the natural coffee processing area of the company.
-            I was leading a large group of workers in the area, with whom I developed work strategies that helped improve communication, effectiveness and performance of the processes. I managed
-            to improve my teamwork skills and learned about the importance of effective communication.
-            </p>
-          </div>
-          <div className="container-e">
-            <div className="flex justify-between items-center mb-2">
-              <div className="font-bold 2xl:text-3xl text-blue">CENTRO INTERNACIONAL DE MAQUINARIA PESADA</div>
-              <div className="year-label font-semibold">2022 - 2023</div>
-            </div>
-            <h3 className="text-lg 2xl:text-3xl  font-bold mb-2">Administrative Assistant</h3>
+            <h3 className="text-lg 2xl:text-3xl  font-bold mb-2">Frontend Developer Jr</h3>
             <p className='text-base  2xl:text-2xl'>
-              I carried out administrative tasks and direct customer service. This included managing documentation and files, 
-              performing reception and telephone support tasks, thus contributing to the general functioning of the company and
-              maintaining positive relationships with customers.
+            I participated in the creation of landing pages and user interfaces using React and Next.js.
+            I carried out the integration with the Mercado Pago API to accept card payments and the creation of a blog using WordPress.
             </p>
           </div>
+          <div className="container-e"> 
+          <div className="flex justify-between items-center mb-2">
+            <div className="font-bold 2xl:text-3xl text-blue">AlMA DEL HUILA S.A.S</div>
+            <div className="year-label font-semibold">2023 - 2024</div>
+          </div>
+          <h3 className="text-lg 2xl:text-3xl  font-bold mb-2">Head of specialty coffee processing</h3>
+          <p  className='text-base  2xl:text-2xl'>
+          I did the professional internship for 6 months and worked the next 6 months in the natural coffee processing area of the company.
+          I was leading a large group of workers in the area, with whom I developed work strategies that helped improve communication, effectiveness and performance of the processes. I managed
+          to improve my teamwork skills and learned about the importance of effective communication.
+          </p>
+        </div>
         </div>
       </div>
     </div>

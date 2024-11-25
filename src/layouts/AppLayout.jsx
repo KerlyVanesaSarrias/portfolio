@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer'
 
 const AppLayout = () => {
   return (
-    <div className=' flex flex-col min-h-screen w-full dark:bg-[#31363F] bg-[#eeeeee]" '>
+    <div className=' flex flex-col min-h-screen w-full" '>
         <Header />
         <div className="flex-grow">
           <Outlet/>

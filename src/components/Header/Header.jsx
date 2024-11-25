@@ -5,6 +5,7 @@ import NavItems from './NavItems';
 import Theme from './Theme';
 import LogoOne from '../../assets/logo1.png'
 import classNames from 'classnames';
+import './header.css'
 
 
 
@@ -36,13 +37,13 @@ const Header = () => {
 
   return (
     <>
-    <div className=' w-full py-2 px-8 flex justify-between items-center dark:bg-[#222] bg-[#31363F]'>
-      <ul className='flex items-center'>
+    <div className=' w-full py-6  flex justify-between  items-center '>
+      <ul className='flex items-center md:pl-20 pl-10'>
         <li><img className='h-16 w-16  mr-2' src={LogoOne} alt="" /></li>
-        <li><a className='md:text-3xl text-xl 2xl:text-3xl text-white space-x-10 font-bold '> KERLY</a></li>
+        <li><a className='md:text-4xl text-xl 2xl:text-3xl text-white space-x-10 font-bold '> KERLY</a></li>
       </ul>
-      <div className='flex'>
-        <nav className='font-bold text-white 2xl:text-2xl cursor-pointer hidden md:flex space-x-8 2xl:space-x-12   pl-52 mr-10'>
+      <div className='flex md:pr-20 pr-10'>
+        <nav className='font-bold text-white 2xl:text-2xl cursor-pointer hidden md:flex space-x-16 2xl:space-x-12   pl-52 mr-10'>
           <NavItems text={'HOME'} onClick={() => handleChangePage(HOME_PATH)} isActive={selectedItem===HOME_PATH}/>
           <NavItems text={'ABOUT ME'} onClick={() => handleChangePage(ABOUTME_PATH)} isActive={selectedItem===ABOUTME_PATH}/>
           <NavItems text={'PROJECTS'} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>

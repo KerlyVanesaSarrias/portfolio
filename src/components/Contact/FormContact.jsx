@@ -52,7 +52,6 @@ const FormContact = () => {
     return (
         <>
         <div className=" w-full pt-10">
-
             <form onSubmit={handleSubmit} className="space-y-4  md:pl-20 md:pr-20 pl-1 pr-1 2xl:pr-96">
                 <div>
                     <label htmlFor="name" className="tittle-input dark-text dark-text">Name</label>

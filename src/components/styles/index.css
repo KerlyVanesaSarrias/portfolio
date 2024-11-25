@@ -5,12 +5,12 @@
 
 
 .project-container {
-    @apply transform md:transition-transform md:duration-75 md:hover:scale-105 inline-block md:w-96 md:h-80 2xl:w-auto 2xl:h-auto m-4 p-2 w-auto h-96 rounded-lg dark:text-white text-gray-700 dark:bg-gray-800 bg-gray-300 md:ml-1 ml-3 mb-16 overflow-hidden;
+    @apply transform md:transition-transform md:duration-75 md:hover:scale-105 inline-block md:w-96 md:h-80 2xl:w-auto 2xl:h-auto m-4 p-2 w-auto h-96 rounded-lg dark:text-white text-gray-700  dark:bg-sky-950 bg-gray-300 md:ml-1 ml-3 mb-16 overflow-hidden;
 }
 
 .project-image {
     @apply w-full md:h-52 h-3/4 2xl:h-80 object-cover rounded-lg drop-shadow-2xl;
-}
+}   
 
 .project-tittle {
     @apply text-lg 2xl:text-3xl font-bold 2xl:py-4;

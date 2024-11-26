@@ -24,7 +24,7 @@ const   SkillsParticles = () => {
         <div className="flex flex-wrap justify-around items-center p-5">
         {skills.map(({ icon: Icon }, index) => (
           <div key={index} className="text-center m-4">
-            <Icon className="text-6xl text-white" />
+            <Icon className="text-6xl dark-text" />
           </div>
         ))}
       </div>

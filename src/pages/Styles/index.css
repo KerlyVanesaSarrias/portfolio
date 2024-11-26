@@ -33,7 +33,7 @@
     overflow: hidden;
     white-space: nowrap;
     border-right: 5px solid rgb(6, 175, 218);
-    animation: typing 3s steps(13) 1s infinite alternate,
+    animation: typing 5s steps(15) 1s infinite alternate,
                 blink 0.75s step-end infinite;
 }
 
@@ -45,4 +45,9 @@
 }
 .text-blue {
     @apply text-[#008DDA]
+}
+
+.contact-section {
+    border: 1px solid ;
+
 }

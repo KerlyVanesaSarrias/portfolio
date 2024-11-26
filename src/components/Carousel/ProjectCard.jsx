@@ -6,12 +6,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const ProjectCard = ( {link, image, tittle, description, technologies}) => {
+const ProjectCard = ( {link, image, title, description, technologies}) => {
     return (
         <div>
                 <a href={link} target="_blank" rel="noopener noreferrer" className="project-container">
                     <img src={image} className="project-image" />
-                    <h2 className="project-tittle">{tittle}</h2>
+                    <h2 className="project-tittle">{title}</h2>
                     <p className="project-description">{description}</p>
                     <p className="project-description" >{technologies}</p>
                 </a>

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet');
+
 .dark body {
    background: linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%);
 } 
 
 body {
-    background: gray;
+    background: #FFFFF0;
+    font-family: "Space Grotesk", sans-serif;
 }

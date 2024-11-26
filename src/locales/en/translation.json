@@ -1,0 +1,145 @@
+
+{
+    "home": {
+        "name": "Kerly Sarrias",
+        "greeting": "Hi! I am Kerly Vanessa Sarrias",
+        "intro": "I'm",
+        "role": "a developer",
+        "description": "Full Stack Web Developer with skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.",
+        "contact": "GET IN TOUCH"
+    },
+    "header": {
+        "home": "HOME",
+        "aboutMe": "ABOUT ME",
+        "projects": "PROJECTS",
+        "contact": "CONTACT"
+    },
+    "about": {
+        "title": "About Me",
+        "head1": "I am a React Frontend developer or",
+        "head2": "Node backend developer",
+        "description": "I have a solid knowledge of a wide range of key technologies. My experience includes front-end development with React, HTML, CSS and tools like Tailwind CSS and Bootstrap, as well as back-end development with Node.js, databases like MySQL, PostgreSQL and MongoDB, using frameworks and libraries like Sequelize and Express.",
+        "downloadCV": "Download CV",
+        "experience": "Experience",
+        "work": "My Work"
+    },
+    "jobs": [
+        {
+            "title": "Frontend Developer",
+            "company": "Weblab",
+            "location": "Remote",
+            "date": "April 2024",
+            "type": "Full Time",
+            "projectName": "Globin",
+            "description": "I participated in the creation of landing pages and user interfaces using React and Next.js. I carried out the integration with the Mercado Pago API to accept card payments and the creation of a blog using WordPress."
+        },
+        {
+            "title": "Agroindustrial engineering",
+            "company": "Alma del Huila",
+            "location": "Onsite",
+            "date": "April 2023 April 2024",
+            "type": "Full Time",
+            "projectName": "Alma del Huila",
+            "description": "Developed and optimized RESTful APIs using Node.js and Express. Implemented secure authentication mechanisms and database integration with PostgreSQL."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University Iberoamericana",
+            "date": "2024 - Currently",
+            "course": "Software Engineering",
+            "type": "Professional",
+            "description": "I am acquiring a solid foundation in programming and software development, learning to create scalable and secure applications. I am also developing skills in systems analysis, quality testing, and project management, with a focus on teamwork and innovation."
+        },
+        {
+            "institution": "Talento Tech",
+            "date": "2024",
+            "course": "Full Stack Development Advanced",
+            "type": "Bootcamp",
+            "description": "During the Talento Tech Bootcamp, I acquired advanced skills in full-stack web development, including building applications with React, microservices architecture, advanced authentication, and database optimization. In addition, I learned CI/CD techniques with Docker and Kubernetes, strengthening my ability to solve complex problems and adapt to dynamic development environments."
+        },
+        {
+            "institution": "Academlo",
+            "date": "2024",
+            "course": "Full Stack Development",
+            "type": "Bootcamp",
+            "description": "During the bootcamp I acquired skills in front-end and back-end. I developed skills in creating and maintaining web applications, applying responsive design principles and good coding practices. Additionally, I strengthened my ability to work in a team, solve complex technical problems, and adapt to development environments."
+        },
+        {
+            "institution": "University Surcolombiana",
+            "date": "2021 - 2025",
+            "course": "Agro-industrial Engineering",
+            "type": "Professional",
+            "description": "During my engineering career, I have developed strong skills in analysis and problem solving. I gained experience in research, experimentation and project management, standing out for my ability to communicate effectively and work as a team. My experience includes a strong ethical commitment, adaptability and focus on innovation."
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "Huila Travel",
+            "description": "Web application that allows the reservation of tourist sites in the department of Huila. Users can explore and book tourist plans, manage their profiles and create tourist sites.",
+            "technologies": "React, JavaScript, TypeScript, Node.js, MongoDB",
+            "image": "../../assets/HuilaTravel.png",    
+            "link": "https://frontendhuilatravel-1.onrender.com"
+        },
+        {
+            "title": "Social Net",
+            "description":"Web application that allows interaction between users. It includes functionalities such as registration, login, profile creation and management, publication, and user tracking.",
+            "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+            "image": "../../assets/SocialNet.png",
+            "link": "https://frontend-social-net-b76a.onrender.com"
+        },
+        {
+            "title": "Pokedex",
+            "description": "Web app that allows you to search, filter, and view Pokémon cards by species name and detailed information.",
+            "technologies": "React, JavaScript, CSS, HTML",
+            "image": "../../assets/Pokedex.png",
+            "link": "https://pokedex-omega-khaki.vercel.app/"
+        },
+        {
+            "title": "Rick and Morty App",
+            "description": "A web app that displays characters and episodes from the Rick and Morty TV series",
+            "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+            "image": "../../assets/RickAndMorty.png",
+            "link": "https://rick-and-morty-app-pi-umber.vercel.app/"
+        },
+        {
+            "title": "Weather App",
+            "description":"A web app that displays current weather and forecast for a given location",
+            "technologies": "React, JavaScript, CSS, HTML",
+            "image": "../../assets/WeatherApp.png",
+            "link": "https://weather-app-pi-ten-18.vercel.app/"
+        },
+        {
+            "title": "Fortune Cookie",
+            "description": "A web app that generates random fortune cookie messages",
+            "technologies": "React, JavaScript, CSS, HTML",
+            "image": "../../assets/Fortune cookie.png",
+            "link": "https://fortune-cookie-omega.vercel.app/"
+        },
+        {
+            "title": "User App",
+            "description": "A web app that allows users to create, read, update and delete user data",
+            "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
+            "image": "../../assets/Users.png",
+            "link": "https://users-crud-three.vercel.app/"
+        }
+    ],
+    "contact" : {
+        "title":  "Let’s Discuss Your Project",
+        "subtitle": "Always available for freelancing if the right project comes along, feel free to contact me."
+    },
+
+    "form" : {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send Message",
+        "sending" : "Sending...",
+        "sent": "Message sent successfully!"
+    },
+    "inf" : {
+        "whatsApp" : "Send message to WhatsApp"
+    }
+}

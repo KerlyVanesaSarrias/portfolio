@@ -21,7 +21,11 @@
         "description": "I have a solid knowledge of a wide range of key technologies. My experience includes front-end development with React, HTML, CSS and tools like Tailwind CSS and Bootstrap, as well as back-end development with Node.js, databases like MySQL, PostgreSQL and MongoDB, using frameworks and libraries like Sequelize and Express.",
         "downloadCV": "Download CV",
         "experience": "Experience",
-        "work": "My Work"
+        "work": "My Work",
+        "education": "Education",
+        "my": "My",
+        "projects": "Recent Projects",
+        "miWork" : "My Work"
     },
     "jobs": [
         {

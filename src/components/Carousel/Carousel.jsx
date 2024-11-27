@@ -14,7 +14,7 @@ export default () => {
    const projects = t("projects", { returnObjects: true })
 
     return (
-        <Swiper className='pl-10 pr-16'
+        <Swiper className='md:pl-10 md:pr-16'
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
             slidesPerView={3}

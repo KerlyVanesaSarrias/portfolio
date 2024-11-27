@@ -25,8 +25,8 @@ const education = t("education", { returnObjects: true });
 
   return (
 
-    <div className='w-full flex flex-col  gap-14 pt-10 '>
-      <div className='flex flex-col md:flex-row px-10'>
+    <div className='w-full flex flex-col  gap-14 pt-10 px-10 '>
+      <div className='flex flex-col md:flex-row '>
         <div className='order-2 md:order-1 md:w-2/5 md:px-20 px-5 flex-col justify-center items-center  md:mt-0 mt-20'>
           <div className=' absolute md:-bottom-40  md:left-0 -left-16 -z-10'><img src={effect1} alt="Logo" /></div>
           <div className='dark:bg-slate-800 bg-slate-600  rounded-3xl border  '>
@@ -45,11 +45,11 @@ const education = t("education", { returnObjects: true });
 
       <div className='mt-20 bg-skills'><SkillsParticles /></div>
 
-      <div className=" pb-20 p-8  2xl:p-2 md:mt-12 mt-2">
+      <div className=" pb-20 md:p-8  2xl:p-2 md:mt-12 mt-2">
         <div className=" gap-8 2xl:gap-16">
           <div className="w-full">
             <h2 className=" mb-4 brand">{t("about.experience")}</h2>
-            <div className='flex gap-4 mb-10'>
+            <div className='flex md:flex-row flex-col md:gap-4 mb-10'>
             {isEnglish ? (
         <>
           <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>
@@ -63,7 +63,7 @@ const education = t("education", { returnObjects: true });
       )}
             </div>
 
-            <div className='grid md:grid-cols-2  grid-cols-1 gap-8'>
+            <div className='flex-col gap-8'>
               {jobs.map((job, index) => (
                 <Card
                   key={index}
@@ -81,12 +81,12 @@ const education = t("education", { returnObjects: true });
         </div>
 
         <div className="w-full dark-text mt-9 ">
-          <h2 className=" mb-4 brand">Education</h2>
+          <h2 className=" mb-4 brand">{t("about.education")}</h2>
           <div className='flex gap-4 mb-10'>
-              <h3 className="dark-text font-bold text-4xl 2xl:text-7xl ">MY</h3>
-              <h3 className='text-[#008DDA] font-bold text-4xl 2xl:text-7xl'>EDUCATION</h3>
+              <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase ">{t("about.my")}</h3>
+              <h3 className='text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase'>{t("about.education")}</h3>
             </div>
-            <div className='grid md:grid-cols-2  grid-cols-1 w-full gap-8'>
+            <div className='flex-col w-full gap-8'>
               {education.map((edu, index) => (
                 <Card
                   key={index}

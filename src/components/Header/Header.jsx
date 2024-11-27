@@ -44,10 +44,10 @@ const Header = () => {
 
   return (
     <>
-    <div className=' w-full py-6  dark-text flex justify-between  items-center sticky top-0  backdrop-blur-sm transition-colors duration-300 '>
+    <div className=' w-full md:py-6 py-4  dark-text flex justify-between  items-center sticky top-0  backdrop-blur-sm transition-colors duration-300 '>
       <ul className='flex items-center md:pl-20 pl-10'>
-        <li><img className='h-16 w-16  mr-2' src={LogoOne} alt="" /></li>
-        <li><a className='md:text-4xl text-xl 2xl:text-3xl  space-x-10 font-bold '> KERLY</a></li>
+        <li><img className='md:h-16 md:w-16 w-9 h-9  mr-2' src={LogoOne} alt="" /></li>
+        <li><a className='md:text-4xl text-sm 2xl:text-3xl  space-x-10 font-bold '> KERLY</a></li>
       </ul>
       <div className='flex md:pr-20 pr-10'>
         <nav className='font-bold  2xl:text-2xl cursor-pointer hidden md:flex space-x-16 2xl:space-x-12    pl-52 mr-10'>
@@ -56,8 +56,8 @@ const Header = () => {
           <NavItems text={t("header.projects")} onClick={() => handleChangePage(PROJECTS_PATH)} isActive={selectedItem===PROJECTS_PATH}/>
           <NavItems text={t("header.contact")} onClick={() => handleChangePage(CONTACT_PATH)} isActive={selectedItem===CONTACT_PATH}/>
         </nav>
-        <div className='mr-5'><Theme/></div>
-        <div className='flex gap-4 md:mr-0 mr-5'>
+        <div className='md:mr-5 md:mt-0 mt-2'><Theme/></div>
+        <div className='flex md:gap-4 gap-1 md:mr-0 mr-2'>
         <button
           onClick={() => changeLanguage('en')}
           className="px-2 py-1 border rounded"

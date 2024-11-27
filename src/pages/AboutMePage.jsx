@@ -25,7 +25,7 @@ const education = t("education", { returnObjects: true });
 
   return (
 
-    <div className='w-full flex flex-col  gap-14 pt-10 px-10 '>
+    <div className='w-full flex flex-col  gap-14 md:px-0 pt-10 px-10 '>
       <div className='flex flex-col md:flex-row '>
         <div className='order-2 md:order-1 md:w-2/5 md:px-20 px-5 flex-col justify-center items-center  md:mt-0 mt-20'>
           <div className=' absolute md:-bottom-40  md:left-0 -left-16 -z-10'><img src={effect1} alt="Logo" /></div>
@@ -33,13 +33,15 @@ const education = t("education", { returnObjects: true });
             <img className=" rounded-3xl" src={LogoImg} alt="" />
           </div>
         </div>
-        <div className=' order-1 md:order-2 flex flex-col justify-center items-center gap-1 md:w-3/5 md:pr-24 w-full '>
+        <div className=' order-1 md:order-2 flex flex-col  gap-1 md:w-3/5 md:pr-24 w-full '>
           <div className='absolute md:top-28 top-30 right-1   -z-30 '><img src={effect2} alt="Logo" /></div>
           <h1 className="brand w-32 ">{t("about.title")}</h1>
           <h2 className="  dark-text mt-6 font-bold uppercase text-4xl 2xl:text-7xl  ">{t("about.head1")}</h2>
           <h3 className="  dark-text  font-bold uppercase text-[#008DDA] text-4xl 2xl:text-7xl  ">{t("about.head2")} </h3>
+          <div className=' flex flex-col justify-center items-center'>
           <p className=" dark-text  text-lg  2xl:text-3xl mt-7 text-justify  ">{t("about.description")}</p>
           <Button onClick={handleDownload} className="md:mt-10  mt-5" color="primary" size="small" isRounded>{t("about.downloadCV")}</Button>
+          </div>
         </div>
       </div>
 

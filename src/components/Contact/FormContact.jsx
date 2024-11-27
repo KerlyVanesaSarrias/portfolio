@@ -76,9 +76,9 @@ const FormContact = () => {
                         <label htmlFor="message" className="tittle-input dark-text dark-text mb-2">{t("form.message")}</label>
                         <textarea id="message" placeholder={t("form.message")} name="message" value={formData.message} onChange={handleChange} rows="4" className=" dark-input  dark-text italic"></textarea>
                     </div>
-                    <div className="flex-col  items-center pb-10">
+                    <div className="flex-col  flex justify-center  items-center pb-10">
                         <Button type="submit" color="primary" size="medium" disabled={isSending}>{isSending ? t("form.sending") : t("form.send")}</Button>
-                        {isSuccess && <p className="text-cyan-400 mt-4 year-label ml-72 font-semibold">{t("form.sent")}</p>}
+                        {isSuccess && <p className="text-cyan-400 mt-4 year-label  font-semibold">{t("form.sent")}</p>}
                         {error && <p className="text-red-500">{error}</p>}
                     </div>
                 </form>

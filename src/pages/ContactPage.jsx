@@ -19,7 +19,7 @@ const ContactPage = () => {
                     </div>
                     <div className='w-full dark:bg-[#0787ff18] bg-[#6e6e7534] rounded-b-3xl'>
                         <div className='w-full flex flex-col md:flex-row  justify-center'>
-                            <div className='md:mt-16 mt-0 pb-5 md:order-1 order-2'><InfContact /></div>
+                            <div className='md:mt-16 mt-0 p-5   md:order-1 order-2'><InfContact /></div>
                             <div className='w-full md:order-2 order-1 md:mt-0 mt-20'><FormContact /></div>
                         </div>
                     </div>

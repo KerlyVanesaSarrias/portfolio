@@ -1,5 +1,4 @@
-.brand {
-    background-color: rgba(7, 135, 255, 0.200);
+.brand2 {
     border-radius: 4px;
     padding: 5px;
     display: inline-block;
@@ -11,8 +10,14 @@
     text-transform: uppercase;
 }
 
+.brand {
+    @apply brand2 dark:bg-[#0787ff33] bg-slate-600
+}
+
+
+
 .bg-skills {
-    background-color: rgba(7, 135, 255, 0.1)
+    @apply dark:bg-[#0787ff1a] bg-[#8f89897c]
 }
 .year-label {
     @apply border-2 text-sm  2xl:text-xl inline-block rounded-full border-cyan-500 py-1 px-4 my-2;

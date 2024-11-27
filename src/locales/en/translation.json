@@ -18,7 +18,7 @@
         "title": "About Me",
         "head1": "I am a React Frontend developer or",
         "head2": "Node backend developer",
-        "description": "I have a solid knowledge of a wide range of key technologies. My experience includes front-end development with React, HTML, CSS and tools like Tailwind CSS and Bootstrap, as well as back-end development with Node.js, databases like MySQL, PostgreSQL and MongoDB, using frameworks and libraries like Sequelize and Express.",
+        "description": "I have a solid knowledge of a wide range of key technologies. My experience includes front-end development with React, JavaScript, TypeScript, HTML, CSS and tools like Tailwind CSS and Bootstrap, as well as back-end development with Node.js, databases like MySQL, PostgreSQL and MongoDB, using frameworks and libraries like Sequelize and Express.",
         "downloadCV": "Download CV",
         "experience": "Experience",
         "work": "My Work",

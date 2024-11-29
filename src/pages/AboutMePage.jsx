@@ -6,22 +6,29 @@ import LogoImg from '../assets/logo2.png'
 import effect1 from '../assets/effect-1.svg'
 import effect2 from '../assets/effect-2.svg'
 import Card from '../components/Card/Card';
-  import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const AboutMePage = () => {
 
   const { t, i18n } = useTranslation();
-const jobs = t("jobs", { returnObjects: true });
-const education = t("education", { returnObjects: true });
+  const jobs = t("jobs", { returnObjects: true });
+  const education = t("education", { returnObjects: true });
+
+  const isEnglish = i18n.language === "en";
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '../../public/CV_KerlyVanessaSarrias.pdf';
-    link.download = 'CV_Kerly_Sarrias.pdf';
+    if(isEnglish){
+      link.href = '../../public/CV_EN_KerlyVanessaSarrias.pdf';
+      link.download = 'CV_EN_Kerly_Sarrias.pdf';
+      link.click();
+    }
+    link.href = '../../public/CV_ES_KerlyVanessaSarrias.pdf';
+    link.download = 'CV_ES_Kerly_Sarrias.pdf';
     link.click();
   };
 
-  const isEnglish = i18n.language === "en";
+
 
   return (
 
@@ -35,12 +42,12 @@ const education = t("education", { returnObjects: true });
         </div>
         <div className=' order-1 md:order-2 flex flex-col  gap-1 md:w-3/5 md:pr-24 w-full '>
           <div className='absolute md:top-28 top-30 right-1   -z-30 '><img src={effect2} alt="Logo" /></div>
-          <h1 className="brand w-32 ">{t("about.title")}</h1>
+          <h1 className={`w-${isEnglish ? '32' : '44'} brand`}>{t("about.title")}</h1>
           <h2 className="  dark-text mt-6 font-bold uppercase text-4xl 2xl:text-7xl  ">{t("about.head1")}</h2>
           <h3 className="  dark-text  font-bold uppercase text-[#008DDA] text-4xl 2xl:text-7xl  ">{t("about.head2")} </h3>
           <div className=' flex flex-col justify-center items-center'>
-          <p className=" dark-text  text-lg  2xl:text-3xl mt-7 text-justify  ">{t("about.description")}</p>
-          <Button onClick={handleDownload} className="md:mt-10  mt-5" color="primary" size="small" isRounded>{t("about.downloadCV")}</Button>
+            <p className=" dark-text  text-lg  2xl:text-3xl mt-7 text-justify  ">{t("about.description")}</p>
+            <Button onClick={handleDownload} className="md:mt-10  mt-5" color="primary" size="small" isRounded>{t("about.downloadCV")}</Button>
           </div>
         </div>
       </div>
@@ -52,17 +59,17 @@ const education = t("education", { returnObjects: true });
           <div className="w-full">
             <h2 className=" mb-4 brand">{t("about.experience")}</h2>
             <div className='flex md:flex-row flex-col md:gap-4 mb-10'>
-            {isEnglish ? (
-        <>
-          <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>
-          <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase">{t("about.experience")}</h3>
-        </>
-      ) : (
-        <>
-          <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.experience")}</h3>
-          <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>
-        </>
-      )}
+              {isEnglish ? (
+                <>
+                  <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>
+                  <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase">{t("about.experience")}</h3>
+                </>
+              ) : (
+                <>
+                  <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.experience")}</h3>
+                  <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>
+                </>
+              )}
             </div>
 
             <div className='flex-col gap-8'>
@@ -85,21 +92,21 @@ const education = t("education", { returnObjects: true });
         <div className="w-full dark-text mt-9 ">
           <h2 className=" mb-4 brand">{t("about.education")}</h2>
           <div className='flex gap-4 mb-10'>
-              <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase ">{t("about.my")}</h3>
-              <h3 className='text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase'>{t("about.education")}</h3>
-            </div>
-            <div className='flex-col w-full gap-8'>
-              {education.map((edu, index) => (
-                <Card
-                  key={index}
-                  title={edu.course}
-                  date={edu.date}
-                  type={edu.type}
-                  projectName={edu.institution}
-                  description={edu.description}
-                />
-              ))}
-            </div>
+            <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase ">{t("about.my")}</h3>
+            <h3 className='text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase'>{t("about.education")}</h3>
+          </div>
+          <div className='flex-col w-full gap-8'>
+            {education.map((edu, index) => (
+              <Card
+                key={index}
+                title={edu.course}
+                date={edu.date}
+                type={edu.type}
+                projectName={edu.institution}
+                description={edu.description}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

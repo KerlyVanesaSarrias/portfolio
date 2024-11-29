@@ -4,7 +4,7 @@
         "greeting": "¡Hola! Soy Kerly Vanessa Sarrias",
         "intro": "Soy",
         "role": "desarrolladora",
-        "description": "Desarrolladora Web Full Stack con habilidades en múltiples tecnologías y siempre en búsqueda de nuevos desafíos y oportunidades para expandir mis conocimientos y habilidades.",
+        "description": "Desarrolladora Web Front-End con habilidades en múltiples tecnologías y siempre en búsqueda de nuevos desafíos y oportunidades para expandir mis conocimientos y habilidades.",
         "contact": "CONTÁCTAME"
     },
     "header": {
@@ -43,7 +43,7 @@
             "date": "Abril 2023 - Abril 2024",
             "type": "Tiempo Completo",
             "projectName": "Alma del Huila",
-            "description": "Responsible for coordinating logistics, managing payrolls, managing work teams and performing quality analysis of the product, both physical and sensorial. The focus was on specialty coffees, highlighting process improvement, project management and efficient organization of production."
+            "description": "Responsable de coordinar la logística, gestionar nóminas, gestionar equipos de trabajo y realizar análisis de calidad del producto, tanto físico como sensorial. El foco estuvo en cafés especiales, destacando la mejora de procesos, la gestión de proyectos y la organización eficiente de la producción."
         }
     ],
     "education": [

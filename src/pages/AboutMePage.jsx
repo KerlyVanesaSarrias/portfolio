@@ -19,11 +19,11 @@ const AboutMePage = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     if(isEnglish){
-      link.href = '../../public/CV_EN_KerlyVanessaSarrias.pdf';
+      link.href = '/CV_EN_KerlyVanessaSarrias.pdf';
       link.download = 'CV_EN_KerlyVanessaSarrias.pdf';
       link.click();
     }
-    link.href = '../../public/CV_ES_KerlyVanessaSarrias.pdf';
+    link.href = '/CV_ES_KerlyVanessaSarrias.pdf';
     link.download = 'CV_EN_KerlyVanessaSarrias.pdf';
     link.click();
   };

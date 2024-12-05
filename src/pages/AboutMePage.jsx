@@ -24,7 +24,7 @@ const AboutMePage = () => {
       link.click();
     }
     link.href = '/CV_ES_KerlyVanessaSarrias.pdf';
-    link.download = 'CV_EN_KerlyVanessaSarrias.pdf';
+    link.download = 'CV_ES_KerlyVanessaSarrias.pdf';
     link.click();
   };
 

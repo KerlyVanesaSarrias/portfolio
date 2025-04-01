@@ -1,6 +1,5 @@
 import classNames from 'classnames';
-import React from 'react'
-
+    
 const Button = ({ color, size, children, onClick, isOnlyIcon = false, className }) => {
     const buttonClasses = classNames( {
         'bg-[#008DDA] text-white rounded-[40px] font-normal hover:bg-blue-500': color === 'primary',

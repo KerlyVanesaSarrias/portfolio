@@ -1,7 +1,6 @@
 
-import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { FaReact,FaNodeJs, FaCss3Alt, FaHtml5, FaGithub } from 'react-icons/fa';
-import { DiPostgresql } from "react-icons/di";
+import {  DiPostgresql } from "react-icons/di";
 import { SiTailwindcss, SiJavascript, SiMongodb } from "react-icons/si";  
 import { TbBrandTypescript } from "react-icons/tb";
 
@@ -14,7 +13,8 @@ const skills = [
     { name: 'TypeScript', icon: TbBrandTypescript },
     { name: 'Node.js', icon: FaNodeJs },
     { name: 'Postgresql', icon: DiPostgresql },
-    { name: 'Mongo db', icon: SiMongodb }
+    { name: 'Mongo db', icon: SiMongodb },
+    { name: 'GitHub', icon: FaGithub }
 ];
 
 const   SkillsParticles = () => {

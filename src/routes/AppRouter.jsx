@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { HomePage, AboutMePage, ProjectsPage, ContactPage } from '../pages';
 import { AppLayout } from '../layouts';

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Button from "../Button/Button"
 import '../styles/index.css'
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
 
 const FormContact = () => {
@@ -60,17 +60,17 @@ const FormContact = () => {
                     <div className='flex md:flex-row flex-col gap-6 '>
                         <div className='md:w-1/2 w-full'>
                             <label htmlFor="name" className="tittle-input dark-text dark-text mb-2">{t("form.name")}</label>
-                            <input dark-text type="text" id="name" placeholder={t("form.name")} name="name" value={formData.name} onChange={handleChange} className=" dark-input  dark-text italic " />
+                            <input  type="text" id="name" placeholder={t("form.name")} name="name" value={formData.name} onChange={handleChange} className=" dark-input  dark-text italic " />
 
                         </div>
                         <div className='md:w-1/2 w-full'>
                             <label htmlFor="email" className="tittle-input dark-text dark-text mb-2">{t("form.email")}</label>
-                            <input dark-text type="email" id="email" placeholder={t("form.email")} name="email" value={formData.email} onChange={handleChange} className=" dark-input  dark-text italic" />
+                            <input  type="email" id="email" placeholder={t("form.email")} name="email" value={formData.email} onChange={handleChange} className=" dark-input  dark-text italic" />
                         </div>
                     </div>
                     <div>
                         <label htmlFor="subject" className="tittle-input dark-text dark-text mb-2">{t("form.subject")}</label>
-                        <input dark-text type="text" id="subject" placeholder={t("form.subject")} name="subject" value={formData.subject} onChange={handleChange} className=" dark-input dark-text italic" />
+                        <input  type="text" id="subject" placeholder={t("form.subject")} name="subject" value={formData.subject} onChange={handleChange} className=" dark-input dark-text italic" />
                     </div>
                     <div>
                         <label htmlFor="message" className="tittle-input dark-text dark-text mb-2">{t("form.message")}</label>

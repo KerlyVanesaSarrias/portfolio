@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ABOUTME_PATH, CONTACT_PATH, HOME_PATH, PROJECTS_PATH } from '../../constants';
 import NavItems from './NavItems';
@@ -44,7 +44,7 @@ const Header = () => {
 
   return (
     <>
-    <div className=' w-full md:py-6 py-4  dark-text flex justify-between  items-center sticky top-0  backdrop-blur-sm transition-colors duration-300 '>
+    <div className=' w-full md:py-6 py-4  dark-text flex justify-between  items-center sticky top-0  backdrop-blur-sm transition-colors duration-300 z-10'>
       <ul className='flex items-center md:pl-20 pl-10'>
         <li><img className='md:h-16 md:w-16 w-9 h-9  mr-2' src={LogoOne} alt="" /></li>
         <li><a className='md:text-4xl text-sm 2xl:text-3xl  space-x-10 font-bold '> KERLY</a></li>
@@ -86,7 +86,7 @@ const Header = () => {
         <NavItems text={'HOME'} onClick={() => {handleChangePage(HOME_PATH); closeMenu()}} isActive={selectedItem===HOME_PATH}/>
         <NavItems text={'ABOUT ME'} onClick={() => {handleChangePage(ABOUTME_PATH); closeMenu()}} isActive={selectedItem===ABOUTME_PATH}/>
         <NavItems text={'PROJECTS'} onClick={() => {handleChangePage(PROJECTS_PATH); closeMenu()}} isActive={selectedItem===PROJECTS_PATH}/>
-        <NavItems text={'CONTACT'} onClick={() => {handleChangePage(CONTACT_PATH); ; closeMenu()}} isActive={selectedItem===CONTACT_PATH}/>
+        <NavItems text={'CONTACT'} onClick={() => {handleChangePage(CONTACT_PATH);  closeMenu()}} isActive={selectedItem===CONTACT_PATH}/>
       </div>
     </div>
     </>

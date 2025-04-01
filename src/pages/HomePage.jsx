@@ -1,6 +1,6 @@
 
 import Button from "../components/Button/Button"
-import { FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Photo1 from '../assets/photo1.png';
 import { Link } from "react-router-dom";
 import { CONTACT_PATH } from "../constants";
@@ -18,22 +18,22 @@ const HomePage = () => {
                     <h4 className="text-blue font-bold uppercase text-3xl md:text-6xl 2xl:text-8xl typing">{t("home.role")}</h4>
                 </div>
                 <p className=" dark-text  font-normal text-xl 2xl:text-4xl text-justify leading-normal tracking-wider mt-4  " >{t("home.description")}</p>
-                
+
                 <div className="flex md:flex-row md:justify-start justify-center md:items-start items-center w-full flex-col gap-3 mt-8">
                     <div>
-                    <Link to={CONTACT_PATH}>
-                        <Button color="primary" size="small" isRounded>{t("home.contact")}</Button>
-                    </Link>
+                        <Link to={CONTACT_PATH}>
+                            <Button color="primary" size="small" isRounded>{t("home.contact")}</Button>
+                        </Link>
                     </div>
                     <div className="flex gap-4">
                         <a href="https://github.com/KerlyVanesaSarrias" target="_blank">
-                            <Button isOnlyIcon='icon' color='secondary'  ><FaGithub/></Button>
+                            <Button isOnlyIcon='icon' color='secondary'  ><FaGithub /></Button>
                         </a>
                         <a href="https://www.linkedin.com/in/kerly-vanessa-7ab012284/" target="_blank">
-                            <Button isOnlyIcon='icon' color='secondary'  ><FaLinkedin/></Button>
+                            <Button isOnlyIcon='icon' color='secondary'  ><FaLinkedin /></Button>
                         </a>
                         <a href="https://wa.me/+573143046748?text=Tu%20Mensaje%20De%20Texto" target="_blank">
-                        <Button isOnlyIcon='icon' color='secondary'  ><FaWhatsapp/></Button>
+                            <Button isOnlyIcon='icon' color='secondary'  ><FaWhatsapp /></Button>
                         </a>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const HomePage = () => {
             <div className="2xl:w-1/4 md:w-2/5 w-full">
                 <img className=" w-full h-full" src={Photo1} alt="" />
             </div>
-    
+
         </div>
     )
 }

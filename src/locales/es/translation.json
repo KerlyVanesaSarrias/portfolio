@@ -78,53 +78,71 @@
     ],
     "projects": [
         {
+            "title": "Movies",
+            "description": "Es una aplicación web  de exploración de películas que permite buscar, filtrar, agragar a favoritos y ver detalles de las películas.",
+            "technologies": "React, Redux Toolkit Query, REST API, Tailwindcss",
+            "image": "../../assets/Movies.png",
+            "linkApp": "https://movies-red-six.vercel.app/",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/movies"
+        },
+        {
+            "title": "Gallery",
+            "description": "es una aplicación web interactiva para explorar imágenes y videos por categorías, con vista ampliada y un modo de presentación automática para una experiencia fluida y envolvente.",
+            "technologies": "React, Redux, REST API, Tailwindcss",
+            "image": "../../assets/Gallery.png",
+            "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/gallery"
+        },
+        {
             "title": "Huila Travel",
             "description": "Aplicación web que permite la reserva de sitios turísticos del departamento del Huila. Los usuarios pueden explorar y reservar planes turísticos, gestionar sus perfiles y crear sitios turísticos",
             "technologies": "React, JavaScript,  TypeScript,  Node.js, MongoDB",
             "image": "../../assets/HuilaTravel.png",
-            "link": "https://frontendhuilatravel-1.onrender.com"
+            "linkApp": "https://frontendhuilatravel-1.onrender.com",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/huila_travel_frontend",
+            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/huila_travel_backend"
         },
         {
             "title": "Social Net",
             "description":"Aplicación web que permite la interacción entre usuarios. Incluye funcionalidades como registro, inicio de sesión, creación y gestión de perfiles, publicación y seguimiento de usuarios",
             "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
             "image": "../../assets/SocialNet.png",
-            "link": "https://frontend-social-net-b76a.onrender.com"
+            "linkApp": "https://frontend-social-net-b76a.onrender.com",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/frontend_social_net",
+            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/backend_social_net"
         },
         {
             "title": "Pokedex",
             "description":"Aplicación web que te permite filtrar cartas de pokemons por número de especies y detalles de su información",
             "technologies": "React, JavaScript, CSS, HTML",
             "image": "../../assets/Pokedex.png",
-            "link": "https://pokedex-omega-khaki.vercel.app/"
+            "linkApp": "https://pokedex-omega-khaki.vercel.app/",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/pokedex"
         },
         {
             "title": "Rick and Morty App",
             "description": "Una aplicación web que muestra personajes y episodios de la serie de televisión Rick and Morty",
             "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
             "image": "../../assets/RickAndMorty.png",
-            "link": "https://rick-and-morty-app-pi-umber.vercel.app/"
+            "linkApp": "https://rick-and-morty-app-pi-umber.vercel.app/",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/Rick-and-Morty-APP"
         },
         {
             "title": "Weather App",
             "description": "Una aplicación web que muestra el clima actual y el pronóstico para una ubicación dada",
             "technologies": "React, JavaScript, CSS, HTML",
             "image": "../../assets/WeatherApp.png",
-            "link": "https://weather-app-pi-ten-18.vercel.app/"
-        },
-        {
-            "title": "Fortune Cookie",
-            "description": "Una aplicación web que genera mensajes aleatorios de galletas de la suerte",
-            "technologies": "React, JavaScript, CSS, HTML",
-            "image": "../../assets/Fortune cookie.png",
-            "link": "https://fortune-cookie-omega.vercel.app/"
+            "linkApp": "https://weather-app-pi-ten-18.vercel.app/",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/WeatherApp"
         },
         {
             "title": "User App",
             "description":"Una aplicación web que permite a los usuarios crear, leer, actualizar y eliminar datos de usuario",
             "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
             "image": "../../assets/Users.png",
-            "link": "https://users-crud-three.vercel.app/"
+            "linkApp": "https://users-crud-three.vercel.app/",
+            "linkGitHub": "https://github.com/KerlyVanesaSarrias/users-crud",
+            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/users_crud-fullstack"
         }
     ],
     "contact" : {

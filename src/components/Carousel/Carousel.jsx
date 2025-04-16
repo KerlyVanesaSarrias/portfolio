@@ -28,9 +28,9 @@ const Carousel = () => {
 
     return (
         <>
-            <Swiper className='md:pl-10 md:pr-16'
+            <Swiper className='md:pl-10 md:pr-16 pl-8 pr-14'
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
+                spaceBetween={60}
                 slidesPerView={3}
                 navigation
                 pagination={{ clickable: true }}
@@ -44,7 +44,7 @@ const Carousel = () => {
                     },
                     480: {
                         slidesPerView: 1,
-                        spaceBetween: 100,
+                        spaceBetween: 50,
                     },
                     640: {
                         slidesPerView: 2,
@@ -52,72 +52,76 @@ const Carousel = () => {
                     },
                     1200: {
                         slidesPerView: 3,
-                        spaceBetween: 75,
+                        spaceBetween: 60,
                     },
                 }}
             >
                 {projects.map((project, index) => (
                     <SwiperSlide key={index}>
-                        <div onClick={() => handleCardClick(project)} className="cursor-pointer">
+                        <div onClick={() => handleCardClick(project)} className="cursor-pointer mt-28 md:mt-0 md:mb-10 mb-20">
                             <ProjectCard {...project} />
                         </div>
                     </SwiperSlide>
                 ))
                 }
-
             </Swiper>
+            <div >
+                <Modal
+                    isOpen={isModalOpen}
+                    onClose={handleCloseModal}
+                    title={selectedProject?.title}
+                >
+                    <div className="md:w-[600px] h-full w-full relative flex flex-col overflow-hidden md:p-10 p-2" >
+                        <img src={selectedProject?.image} className="w-full h-auto" />
+                        <p className="mt-7 font-thin">{selectedProject?.description}</p>
+                        <div className='flex gap-4 mt-3'>
+                            <p className='font-bold'>Technologies: </p>
+                            <p className=" dark:text-white  text-gray-700">
+                                {selectedProject?.technologies}
+                            </p>
+                        </div>
 
-            <Modal
-                isOpen={isModalOpen}
-                onClose={handleCloseModal}
-                title={selectedProject?.title}
-            >
-                <div className="md:w-[800px] h-full w-full relative flex flex-col overflow-hidden p-10" >
-                    <img src={selectedProject?.image} className="w-full h-auto" />
-                    <p className="mt-4">{selectedProject?.description}</p>
-                    <div className='flex gap-4 mt-3'>
-                        <p className='font-bold'>Technologies: </p>
-                        <p className=" dark:text-white  text-gray-700">
-                             {selectedProject?.technologies}
-                        </p>
+                        <div className='flex gap-10 text-sm  items-center justify-center italic dark:text-[#008DDA]  text-gray-700 underline'>
+                            {selectedProject?.linkApp && (
+                                <a
+                                    href={selectedProject?.linkApp}
+                                    target="_blank"
+                                    className="mt-4 "
+                                >
+                                    Ver App Web
+                                </a>
+                            )}
+
+                            {selectedProject?.linkGitHub && (
+                                <a
+                                    href={selectedProject?.linkGitHub}
+                                    target="_blank"
+                                    className="mt-4 italic "
+                                >
+                                    Ver GiHub
+                                </a>
+                            )}
+
+
+                            {selectedProject?.linkGitHubBack && (
+                                <a
+                                    href={selectedProject?.linkGitHubBack}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="mt-4"
+                                >
+                                    Ver GiHub Backend 
+                                </a>
+                            )}
+
+                        </div>
                     </div>
-
-                    <div className='flex gap-10  items-center justify-center'>
-                        {selectedProject?.linkApp && (
-                            <a
-                                href={selectedProject?.linkApp}
-                                target="_blank"
-                                className="mt-4 inline-block dark:text-white  text-gray-700 underline"
-                            >
-                                Ver Proyecto
-                            </a>
-                        )}
-
-                        {selectedProject?.linkGitHub && (
-                            <a
-                                href={selectedProject?.linkGitHub}
-                                target="_blank"
-                                className="mt-4 inline-block dark:text-white  text-gray-700 underline"
-                            >
-                                Ver en Github
-                            </a>
-                        )}
-
-
-                        {selectedProject?.linkGitHubBack && (
-                            <a
-                                href={selectedProject?.linkGitHubBack}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="mt-4 inline-block dark:text-white  text-gray-700 underline"
-                            >
-                                Ver Backend en GitHub
-                            </a>
-                        )}
+                    <div>
 
                     </div>
-                </div>
-            </Modal>
+                </Modal>
+            </div>
+
         </>
 
     );

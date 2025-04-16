@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlinePhoneAndroid, MdOutlineMail, MdOutlineLocationOn } from "react-icons/md";
 import { useTranslation } from 'react-i18next';
@@ -29,7 +29,7 @@ const InfContact = () => {
                     </div>
                     <div className='flex gap-4'>
                         <MdOutlineLocationOn className='icon-info' />
-                        <span class="contact__info-map"> Huila, Colombia. </span>
+                        <span className="contact__info-map"> Huila, Colombia. </span>
                     </div>
                 </address>
             </div>

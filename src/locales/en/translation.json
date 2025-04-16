@@ -9,15 +9,15 @@
         "contact": "GET IN TOUCH"
     },
     "header": {
-        "home": "HOME",
-        "aboutMe": "ABOUT ME",
-        "projects": "PROJECTS",
-        "contact": "CONTACT"
+        "home": "Home",
+        "aboutMe": "About me",
+        "projects": "Projects",
+        "contact": "Contact"
     },
     "about": {
         "title": "About Me",
-        "head1": "I am a React Frontend developer or",
-        "head2": "Node backend developer",
+        "head1": "I am a web developer",
+        "head2": "Fullstack",
         "description": "I have a solid knowledge of a wide range of key technologies. My experience includes front-end development with React, JavaScript, TypeScript, HTML, CSS and tools like Tailwind CSS and Bootstrap, as well as back-end development with Node.js, databases like MySQL, PostgreSQL and MongoDB, using frameworks and libraries like Sequelize and Express.",
         "downloadCV": "Download CV",
         "experience": "Experience",
@@ -30,49 +30,47 @@
     "jobs": [
         {
             "title": "Frontend Developer",
-            "company": "Weblab",
+            "company": "Globin",
             "location": "Remote",
             "date": "April 2024",
             "type": "Full Time",
-            "projectName": "Globin",
             "description": "I participated in the creation of landing pages and user interfaces using React and Next.js. I carried out the integration with the Mercado Pago API to accept card payments and the creation of a blog using WordPress."
         },
         {
             "title": "Agroindustrial engineering",
             "company": "Alma del Huila",
             "location": "Onsite",
-            "date": "April 2023 April 2024",
+            "date": "April 2023 - April 2024",
             "type": "Full Time",
-            "projectName": "Alma del Huila",
             "description": "Developed and optimized RESTful APIs using Node.js and Express. Implemented secure authentication mechanisms and database integration with PostgreSQL."
         }
     ],
     "education": [
         {
-            "institution": "University Iberoamericana",
+            "company": "University Iberoamericana",
             "date": "2024 - Currently",
-            "course": "Software Engineering",
+            "title": "Software Engineering",
             "type": "Professional",
             "description": "I am acquiring a solid foundation in programming and software development, learning to create scalable and secure applications. I am also developing skills in systems analysis, quality testing, and project management, with a focus on teamwork and innovation."
         },
         {
-            "institution": "Talento Tech",
+            "company": "Talento Tech",
             "date": "2024",
-            "course": "Full Stack Development Advanced",
+            "title": "Full Stack Development Advanced",
             "type": "Bootcamp",
             "description": "During the Talento Tech Bootcamp, I acquired advanced skills in full-stack web development, including building applications with React, microservices architecture, advanced authentication, and database optimization. In addition, I learned CI/CD techniques with Docker and Kubernetes, strengthening my ability to solve complex problems and adapt to dynamic development environments."
         },
         {
-            "institution": "Academlo",
+            "company": "Academlo",
             "date": "2024",
-            "course": "Full Stack Development",
+            "title": "Full Stack Development",
             "type": "Bootcamp",
             "description": "During the bootcamp I acquired skills in front-end and back-end. I developed skills in creating and maintaining web applications, applying responsive design principles and good coding practices. Additionally, I strengthened my ability to work in a team, solve complex technical problems, and adapt to development environments."
         },
         {
-            "institution": "University Surcolombiana",
+            "company": "University Surcolombiana",
             "date": "2021 - 2025",
-            "course": "Agro-industrial Engineering",
+            "title": "Agro-industrial Engineering",
             "type": "Professional",
             "description": "During my engineering career, I have developed strong skills in analysis and problem solving. I gained experience in research, experimentation and project management, standing out for my ability to communicate effectively and work as a team. My experience includes a strong ethical commitment, adaptability and focus on innovation."
         }

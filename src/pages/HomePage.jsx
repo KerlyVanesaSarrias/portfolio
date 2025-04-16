@@ -12,12 +12,12 @@ const HomePage = () => {
         <div className='basis-full 2xl:basis-3/5 flex flex-col md:flex-row  items-center justify-center md:px-20 px-10 md:mt-0 md: mt-10 '>
             <div className="basis-full md:basis-3/5  2xl:w-3/4  md:px-10  ">
                 <h1 className="brand mb-5 ">{t("home.name")}</h1>
-                <h2 className=" dark-text font-bold uppercase text-3xl md:text-6xl 2xl:text-9xl ">{t("home.greeting")}</h2>
+                <h2 className="dark-text font-bold uppercase text-3xl md:text-5xl 2xl:text-9xl ">{t("home.greeting")}</h2>
                 <div className="flex gap-3">
-                    <h3 className=" text-blue font-bold uppercase text-3xl md:text-6xl 2xl:text-8xl ">{t("home.intro")}</h3>
-                    <h4 className="text-blue font-bold uppercase text-3xl md:text-6xl 2xl:text-8xl typing">{t("home.role")}</h4>
+                    <h3 className=" text-blue font-semibold uppercase text-3xl md:text-5xl 2xl:text-8xl ">{t("home.intro")}</h3>
+                    <h4 className="text-blue font-semibold uppercase text-3xl md:text-5xl 2xl:text-8xl typing ">{t("home.role")}</h4>
                 </div>
-                <p className=" dark-text  font-normal text-xl 2xl:text-4xl text-justify leading-normal tracking-wider mt-4  " >{t("home.description")}</p>
+                <p className="dark-text  text-xl 2xl:text-4xl text-justify font-extralight mt-4  " >{t("home.description")}</p>
 
                 <div className="flex md:flex-row md:justify-start justify-center md:items-start items-center w-full flex-col gap-3 mt-8">
                     <div>

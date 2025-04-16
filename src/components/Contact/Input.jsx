@@ -1,11 +1,8 @@
-import classNames from 'classnames'
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react'
 
 
-const Input = forwardRef(({
-    name, label, value, onChange, id,
-    type = 'text', placeHolder, errorMessage, ...restProps
-}, ref) => {
+// eslint-disable-next-line react/display-name, react/prop-types
+const Input = forwardRef(({name, label, value, onChange, id, type = 'text', placeHolder, errorMessage, ...restProps}, ref) => {
 
     return (
         <div >

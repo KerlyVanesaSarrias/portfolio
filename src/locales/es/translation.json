@@ -8,15 +8,15 @@
         "contact": "CONTÁCTAME"
     },
     "header": {
-        "home": "INICIO",
-        "aboutMe": "ACERCA DE MI",
-        "projects": "PROYECTOS",
-        "contact": "CONTACTO"
+        "home": "Inicio",
+        "aboutMe": "Acerca De Mi",
+        "projects": "Proyectos",
+        "contact": "Contacto"
     },
     "about": {
         "title": "ACERCA DE MI",
-        "head1": " Soy desarrolladora Frontend con React o",
-        "head2": "desarrolladora backend con Node.js",
+        "head1": " Soy desarrolladora web",
+        "head2": "Fullstack",
         "description": "Tengo un sólido conocimiento de una amplia gama de tecnologías clave. Mi experiencia incluye desarrollo front-end con React, JavaScript, TypeScript, HTML, CSS y herramientas como Tailwind CSS y Bootstrap, así como desarrollo back-end con Node.js, bases de datos como MySQL, PostgreSQL y MongoDB, utilizando frameworks y bibliotecas como Sequelize y Express.",
         "downloadCV": "Descargar CV",
         "experience": "Experiencia",
@@ -29,11 +29,10 @@
     "jobs": [
         {
             "title": "Desarrolladora Frontend",
-            "company": "Weblab",
+            "company": "Globin",
             "location": "Remoto",
             "date": "Abril 2024",
             "type": "Tiempo Completo",
-            "projectName": "Globin",
             "description": "Participación en la creación de la landing page e interfaz de usuario utilizando React y Next.js. Integración con la API de Mercado Pago para aceptar pagos con tarjeta y la creación de un blog utilizando WordPress."
         },
         {
@@ -42,38 +41,37 @@
             "location": "Presencial",
             "date": "Abril 2023 - Abril 2024",
             "type": "Tiempo Completo",
-            "projectName": "Alma del Huila",
             "description": "Responsable de coordinar la logística, gestionar nóminas, gestionar equipos de trabajo y realizar análisis de calidad del producto, tanto físico como sensorial. El foco estuvo en cafés especiales, destacando la mejora de procesos, la gestión de proyectos y la organización eficiente de la producción."
         }
     ],
     "education": [
         {
-            "institution": "Universidad Iberoamericana",
+            "title": "Ingeniería de Software",
+            "company": "Universidad Iberoamericana",
             "date": "2024 - Actualmente",
-            "course": "Ingeniería de Software",
             "type": "Profesional",
             "description": "Estoy adquiriendo una sólida base en programación y desarrollo de software, aprendiendo a crear aplicaciones escalables y seguras. También estoy desarrollando habilidades en análisis de sistemas, pruebas de calidad y gestión de proyectos, con un enfoque en el trabajo en equipo y la innovación."
         },
         {
-            "institution": "Talento Tech",
+            "title": "Desarrollo Full Stack Avanzado",
+            "company": "Talento Tech",
             "date": "2024",
-            "course": "Desarrollo Full Stack Avanzado",
             "type": "Bootcamp",
             "description": "Durante el Bootcamp Talento Tech, adquirí habilidades avanzadas en desarrollo web full stack, incluyendo creación de aplicaciones con React, arquitectura de microservicios, autenticación avanzada y optimización de bases de datos. Además, aprendí técnicas de CI/CD con Docker y Kubernetes, fortaleciendo mi capacidad para resolver problemas complejos y adaptarme a entornos de desarrollo dinámicos."
         },
         {
-            "institution": "Academlo",
+            "title": "Desarrollo Full Stack",
+            "company": "Academlo",
             "date": "2024",
-            "course": "Desarrollo Full Stack",
             "type": "Bootcamp",
-            "description": "Durante el bootcamp adquirí habilidades en front-end y back-end. Desarrollé habilidades en la creación y mantenimiento de aplicaciones web, aplicando principios de diseño responsivo y buenas prácticas de codificación. Además, fortalecí mi capacidad para trabajar en equipo, resolver problemas técnicos complejos y adaptarme a entornos de desarrollo."
+            "description": "Durante el bootcamp adquirí habilidades en front-end y back-end.  Además, fortalecí mi capacidad para trabajar en equipo, resolver problemas técnicos complejos y adaptarme a entornos de desarrollo."
         },
         {
-            "institution": "Universidad Surcolombiana",
+            "title": "Ingeniería Agroindustrial",
+            "company": "Universidad Surcolombiana",
             "date": "2021 - 2025",
-            "course": "Ingeniería Agroindustrial",
             "type": "Profesional",
-            "description": "Durante mi carrera de ingeniería, desarrollé fuertes habilidades en análisis y resolución de problemas. Gané experiencia en investigación, experimentación y gestión de proyectos, destacándome por mi capacidad de comunicación efectiva y trabajo en equipo. Mi experiencia incluye un fuerte compromiso ético, adaptabilidad y enfoque en la innovación."
+            "description": "Durante mi carrera de ingeniería, desarrollé fuertes habilidades en análisis y resolución de problemas. Gané experiencia en investigación, experimentación y gestión de proyectos, destacándome por mi capacidad de comunicación efectiva y trabajo en equipo."
         }
     ],
     "projects": [
@@ -87,7 +85,7 @@
         },
         {
             "title": "Gallery",
-            "description": "es una aplicación web interactiva para explorar imágenes y videos por categorías, con vista ampliada y un modo de presentación automática para una experiencia fluida y envolvente.",
+            "description": "Es una aplicación web interactiva para explorar imágenes y videos por categorías, con vista ampliada y un modo de presentación automática para una experiencia fluida y envolvente.",
             "technologies": "React, Redux, REST API, Tailwindcss",
             "image": "../../assets/Gallery.png",
             "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",

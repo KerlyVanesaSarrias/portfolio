@@ -1,24 +1,18 @@
-const Card = ({ title, company, location, date, type, projectName, description }) => {
+
+
+// eslint-disable-next-line react/prop-types
+const Card = ({ title, company, location,  type, projectName, description }) => {
     return (
-        <div className="container-e  ">
-            <div className="flex md:flex-row flex-col">
-                <div className="md:w-64 text-white">
-                    <div className="md:p-5 p-3 rounded-xl bg-cyan-600">
-                        <h4 className="text-2xl font-semibold mb-3">{title}</h4>
-                        <span>{company}  {location}</span>
-                        <p>{date}</p>
-                        <p>{type}</p>
-                    </div>
-                </div>
-                <div className="w-full dark-text md:mt-0 mt-5">
-                    <div className="md:px-10"> 
-                        <h4 className="text-3xl font-semibold mb-3">{projectName}</h4>
-                        <p className="text-base text-justify">{description}</p>
-                    </div>
-                </div>
-            </div>
+      <div className="relative md:p-5 p-2 dark:bg-sky-950 bg-slate-200  rounded-lg shadow-lg shadow-cyan-800 dark:shadow-slate-950  dark-text"> 
+          <h4 className=" md:text-lg text-sm text-blue font-medium">{title}</h4>
+          <h4 className=" font-semibold mb-2 text-blue">{projectName}</h4>
+          <span className="text-xs md:text-sm block mb-1">{company}  {location}</span>   
+          <p className="text-xs md:text-sm text-blue  mb-3">{type}</p>
+        <div className="md:px-6 mt-5">
+          <p className="text-xs md:text-sm  text-justify">{description}</p>
         </div>
+      </div>
     );
-};
+  };
 
 export default Card;

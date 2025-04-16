@@ -1,20 +1,12 @@
-.dark-text {
-    @apply  dark:text-white  text-gray-700 
-}
+
 
 .dark-input {
-    @apply   style-input w-full  2xl:text-2xl border-solid   shadow-xl rounded-md p-2;
+    @apply  w-full  2xl:text-2xl   shadow-md shadow-cyan-800 dark:shadow-cyan-950 rounded-md p-2 border-gray-600  dark:bg-white/5  ;
 }
-
-.style-input  {
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    background-color: rgba(255, 255, 255, 0.05);
-}
-
 
 
 .project-container {
-    @apply  transform md:transition-transform md:duration-75 md:hover:scale-105 inline-block md:w-96 2xl:w-auto w-full  2xl:h-auto md:h-96 h-full m-4  p-4 rounded-lg  mb-16  dark:text-white md:ml-1 ml-3 overflow-hidden text-gray-700  dark:bg-sky-950 bg-gray-300;
+    @apply  transform md:transition-transform md:duration-75 hover:scale-105 inline-block md:w-96 2xl:w-auto w-full  2xl:h-auto md:h-96 h-full m-4 p-5 rounded-lg overflow-hidden dark:bg-sky-950 bg-slate-200 shadow-md shadow-cyan-800 dark:shadow-slate-950;
 }
 
 .project-image {
@@ -22,11 +14,11 @@
 }   
 
 .project-tittle {
-    @apply text-lg 2xl:text-3xl font-bold 2xl:py-4 pt-1 ;
+    @apply text-lg 2xl:text-3xl font-bold uppercase mb-5;
 }
 
 .project-description {
-    @apply md:text-sm text-xs 2xl:text-xl inline-block overflow-hidden text-ellipsis pt-1 pb-1;
+    @apply  text-xs  2xl:text-xl inline-block overflow-hidden mt-5  ;
 }
 
 

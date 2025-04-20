@@ -71,12 +71,12 @@ const Carousel = () => {
                     onClose={handleCloseModal}
                     title={selectedProject?.title}
                 >
-                    <div className="md:w-[600px] h-full w-full relative flex flex-col overflow-hidden md:p-10 p-2" >
+                    <div className="md:w-[600px] h-full w-full relative flex flex-col text-sm overflow-hidden md:p-10 p-2" >
                         <img src={selectedProject?.image} className="w-full h-auto" />
-                        <p className="mt-7 font-thin">{selectedProject?.description}</p>
+                        <p className="mt-7 font-light text-justify">{selectedProject?.description}</p>
                         <div className='flex gap-4 mt-3'>
                             <p className='font-bold'>Technologies: </p>
-                            <p className=" dark:text-white  text-gray-700">
+                            <p className=" dark-text">
                                 {selectedProject?.technologies}
                             </p>
                         </div>

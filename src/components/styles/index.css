@@ -18,7 +18,7 @@
 }
 
 .project-description {
-    @apply  text-xs  2xl:text-xl inline-block overflow-hidden mt-5  ;
+    @apply  text-xs text-justify  2xl:text-xl inline-block overflow-hidden mt-5  ;
 }
 
 

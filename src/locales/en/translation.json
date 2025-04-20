@@ -1,170 +1,170 @@
-
 {
     "home": {
-        "name": "Kerly Sarrias",
-        "greeting": "Hi! I am Kerly Vanessa Sarrias",
-        "intro": "I'm",
-        "role": "a developer",
-        "description": "Front-End Web Developer with skills in multiple technologies and always in search of new challenges and opportunities to expand my knowledge and skills.",
-        "contact": "GET IN TOUCH"
+      "name": "Kerly Sarrias",
+      "greeting": "Hi! I'm Kerly Vanessa Sarrias",
+      "intro": "I am",
+      "role": "developer",
+      "description": "Full-Stack Web Developer with a creative soul, analytical mind, and a cup of coffee always nearby. Software Engineering student focused on building experiences that blend design, technology, and purpose.",
+      "contact": "CONTACT ME"
     },
     "header": {
-        "home": "Home",
-        "aboutMe": "About me",
-        "projects": "Projects",
-        "contact": "Contact"
+      "home": "Home",
+      "aboutMe": "About Me",
+      "projects": "Projects",
+      "contact": "Contact"
     },
     "about": {
-        "title": "About Me",
-        "head1": "I am a web developer",
-        "head2": "Fullstack",
-        "description": "I have a solid knowledge of a wide range of key technologies. My experience includes front-end development with React, JavaScript, TypeScript, HTML, CSS and tools like Tailwind CSS and Bootstrap, as well as back-end development with Node.js, databases like MySQL, PostgreSQL and MongoDB, using frameworks and libraries like Sequelize and Express.",
-        "downloadCV": "Download CV",
-        "experience": "Experience",
-        "work": "My Work",
-        "education": "Education",
-        "my": "My",
-        "projects": "Recent Projects",
-        "miWork" : "My Work"
+      "title": "ABOUT ME",
+      "head1": "I'm a Fullstack Web Developer",
+      "head2": "and a Software Engineering student.",
+      "description": "My transition from the agro-industrial sector to web development allowed me to combine analysis, organization, and creativity to build complete digital solutions. I work with React, TypeScript, Node.js, Java, MongoDB, PostgreSQL, and more, both in frontend and backend. I'm proactive, curious, and passionate about turning ideas into functional experiences that deliver real value.",
+      "downloadCV": "Download CV",
+      "experience": "Work",
+      "work": "Experience",
+      "education": "Education",
+      "my": "My",
+      "projects": "Recent Projects",
+      "miWork": "My Work"
     },
     "jobs": [
-        {
-            "title": "Frontend Developer",
-            "company": "Globin",
-            "location": "Remote",
-            "date": "April 2024",
-            "type": "Full Time",
-            "description": "I participated in the creation of landing pages and user interfaces using React and Next.js. I carried out the integration with the Mercado Pago API to accept card payments and the creation of a blog using WordPress."
-        },
-        {
-            "title": "Agroindustrial engineering",
-            "company": "Alma del Huila",
-            "location": "Onsite",
-            "date": "April 2023 - April 2024",
-            "type": "Full Time",
-            "description": "Developed and optimized RESTful APIs using Node.js and Express. Implemented secure authentication mechanisms and database integration with PostgreSQL."
-        }
+      {
+        "title": "Frontend Developer",
+        "company": "Globin",
+        "location": "Remote",
+        "date": "April 2024",
+        "type": "Full Time",
+        "description": "Developed the landing page and implemented user interfaces using React and Next.js, enhancing the visual and interactive experience. Integrated Mercado Pago API for secure and efficient payments and set up a WordPress blog for easy content management."
+      },
+      {
+        "title": "Agroindustrial Engineer",
+        "company": "Alma del Huila",
+        "location": "On-site",
+        "date": "April 2023 - April 2024",
+        "type": "Full Time",
+        "description": "Led work teams and coordinated production logistics in the specialty coffee area, managing continuous improvement projects, quality analysis, and process optimization in a collaborative and results-oriented environment."
+      }
     ],
     "education": [
-        {
-            "company": "University Iberoamericana",
-            "date": "2024 - Currently",
-            "title": "Software Engineering",
-            "type": "Professional",
-            "description": "I am acquiring a solid foundation in programming and software development, learning to create scalable and secure applications. I am also developing skills in systems analysis, quality testing, and project management, with a focus on teamwork and innovation."
-        },
-        {
-            "company": "Talento Tech",
-            "date": "2024",
-            "title": "Full Stack Development Advanced",
-            "type": "Bootcamp",
-            "description": "During the Talento Tech Bootcamp, I acquired advanced skills in full-stack web development, including building applications with React, microservices architecture, advanced authentication, and database optimization. In addition, I learned CI/CD techniques with Docker and Kubernetes, strengthening my ability to solve complex problems and adapt to dynamic development environments."
-        },
-        {
-            "company": "Academlo",
-            "date": "2024",
-            "title": "Full Stack Development",
-            "type": "Bootcamp",
-            "description": "During the bootcamp I acquired skills in front-end and back-end. I developed skills in creating and maintaining web applications, applying responsive design principles and good coding practices. Additionally, I strengthened my ability to work in a team, solve complex technical problems, and adapt to development environments."
-        },
-        {
-            "company": "University Surcolombiana",
-            "date": "2021 - 2025",
-            "title": "Agro-industrial Engineering",
-            "type": "Professional",
-            "description": "During my engineering career, I have developed strong skills in analysis and problem solving. I gained experience in research, experimentation and project management, standing out for my ability to communicate effectively and work as a team. My experience includes a strong ethical commitment, adaptability and focus on innovation."
-        }
+      {
+        "title": "Software Engineering",
+        "company": "Universidad Iberoamericana",
+        "date": "2024 - Present",
+        "type": "Professional",
+        "description": "Training in software development, scalable systems, quality testing, and project management with a focus on innovation and teamwork."
+      },
+      {
+        "title": "Full Stack Web Development",
+        "company": "Generation Colombia",
+        "date": "2025",
+        "type": "Bootcamp",
+        "description": "Learned solid fundamentals in full stack web development with HTML, CSS, JavaScript, Java, and databases, applying agile methodologies and best practices."
+      },
+      {
+        "title": "Advanced Full Stack Web Development",
+        "company": "Talento Tech",
+        "date": "2024",
+        "type": "Bootcamp",
+        "description": "Learned advanced web development with React, microservices, authentication, databases, and Node.js, solving challenges in dynamic environments."
+      },
+      {
+        "title": "Full Stack Development",
+        "company": "Academlo",
+        "date": "2024",
+        "type": "Bootcamp",
+        "description": "Training in front-end and back-end, strengthening technical skills, problem-solving, and collaborative work."
+      },
+      {
+        "title": "Agroindustrial Engineering",
+        "company": "Universidad Surcolombiana",
+        "date": "2018 - 2023",
+        "type": "Professional",
+        "description": "Developed analytical, research, and project management skills, standing out in communication and teamwork."
+      }
     ],
-
     "projects": [
-
-        {
-            "title": "Movies",
-            "description": "It is a movie browsing web application that allows you to search, filter, add to favorites, and view movie details.",
-            "technologies": "React, Redux Toolkit Query, REST API, Tailwindcss",
-            "image": "../../assets/Movies.png",
-            "linkApp": "https://movies-red-six.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/movies"
-            
-        },
-
-        {
-            "title": "Gallery",
-            "description": "Gallery is an interactive web application for browsing images and videos by category, with expanded view and an auto-slide mode for a fluid and immersive experience.",
-            "technologies": "React, Redux Toolkit, REST API, Tailwindcss",
-            "image": "../../assets/Gallery.png",
-            "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/gallery"
-
-        },
-        {
-            "title": "Huila Travel",
-            "description": "Web application that allows the reservation of tourist sites in the department of Huila. Users can explore and book tourist plans, manage their profiles and create tourist sites.",
-            "technologies": "React, JavaScript, TypeScript, Node.js, MongoDB",
-            "image": "../../assets/HuilaTravel.png",    
-            "linkApp": "https://frontendhuilatravel-1.onrender.com",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/huila_travel_frontend",
-            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/huila_travel_backend"
-        },
-        {
-            "title": "Social Net",
-            "description":"Web application that allows interaction between users. It includes functionalities such as registration, login, profile creation and management, publication, and user tracking.",
-            "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
-            "image": "../../assets/SocialNet.png",
-            "linkApp": "https://frontend-social-net-b76a.onrender.com",
-             "linkGitHub": "https://github.com/KerlyVanesaSarrias/frontend_social_net",
-            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/backend_social_net"
-        },
-        {
-            "title": "Pokedex",
-            "description": "Web app that allows you to search, filter, and view Pokémon cards by species name and detailed information.",
-            "technologies": "React, JavaScript, CSS, HTML, APIREST",
-            "image": "../../assets/Pokedex.png",
-            "linkApp": "https://pokedex-omega-khaki.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/pokedex"
-        },
-        {
-            "title": "Rick and Morty App",
-            "description": "A web app that displays characters and episodes from the Rick and Morty TV series",
-            "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
-            "image": "../../assets/RickAndMorty.png",
-            "linkApp": "https://rick-and-morty-app-pi-umber.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/Rick-and-Morty-APP"
-        },
-        {
-            "title": "Weather App",
-            "description":"A web app that displays current weather and forecast for a given location",
-            "technologies": "React, JavaScript, CSS, HTML",
-            "image": "../../assets/WeatherApp.png",
-            "linkApp": "https://weather-app-pi-ten-18.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/WeatherApp"
-        },
-        {
-            "title": "User App",
-            "description": "A web app that allows users to create, read, update and delete user data",
-            "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
-            "image": "../../assets/Users.png",
-            "linkApp": "https://users-crud-three.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/users-crud",
-            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/users_crud-fullstack"
-        }
-       
-    ],
-    "contact" : {
-        "title":  "Let’s Discuss Your Project",
-        "subtitle": "Always available for freelancing if the right project comes along, feel free to contact me."
+  {
+    "title": "Movies",
+    "description": "A web application for movie exploration: search, filter, add to favorites, and view detailed information. Ideal for movie enthusiasts looking to discover new titles easily.",
+    "technologies": "React, Redux Toolkit Query, REST API, Tailwind CSS",
+    "image": "../../assets/Movies.png",
+    "linkApp": "https://movies-red-six.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/movies"
+  },
+  {
+    "title": "Gallery",
+    "description": "An interactive gallery for exploring images and videos by category. Includes expanded view and autoplay mode for a smooth and immersive browsing experience.",
+    "technologies": "React, Redux, REST API, Tailwind CSS",
+    "image": "../../assets/Gallery.png",
+    "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/gallery"
+  },
+  {
+    "title": "Huila Travel",
+    "description": "A web platform for exploring and booking tourist destinations in the Huila region. Users can manage their profiles, create travel experiences, and discover new places.",
+    "technologies": "React, JavaScript, TypeScript, Node.js, MongoDB",
+    "image": "../../assets/HuilaTravel.png",
+    "linkApp": "https://frontendhuilatravel-1.onrender.com",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/huila_travel_frontend",
+    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/huila_travel_backend"
+  },
+  {
+    "title": "Social Net",
+    "description": "A functional social network where users can register, log in, create and manage profiles, post content, and follow others. Designed to encourage interaction and networking.",
+    "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+    "image": "../../assets/SocialNet.png",
+    "linkApp": "https://frontend-social-net-b76a.onrender.com",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/frontend_social_net",
+    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/backend_social_net"
+  },
+  {
+    "title": "Pokedex",
+    "description": "A Pokédex-style web app that allows users to filter Pokémon by species number and view detailed information. Great for fans looking to explore the Pokémon universe.",
+    "technologies": "React, JavaScript, CSS, HTML",
+    "image": "../../assets/Pokedex.png",
+    "linkApp": "https://pokedex-omega-khaki.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/pokedex"
+  },
+  {
+    "title": "Rick and Morty App",
+    "description": "A web app that displays characters and episodes from the Rick and Morty TV series. Uses data from the official API to provide detailed information for fans.",
+    "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+    "image": "../../assets/RickAndMorty.png",
+    "linkApp": "https://rick-and-morty-app-pi-umber.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/Rick-and-Morty-APP"
+  },
+  {
+    "title": "Weather App",
+    "description": "A weather app that shows current conditions and forecasts for a given location. Useful for planning daily activities based on local weather.",
+    "technologies": "React, JavaScript, CSS, HTML",
+    "image": "../../assets/WeatherApp.png",
+    "linkApp": "https://weather-app-pi-ten-18.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/WeatherApp"
+  },
+  {
+    "title": "User App",
+    "description": "A CRUD web app for managing user data: create, read, update, and delete. Features a flexible backend with Sequelize, MongoDB, and MySQL.",
+    "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
+    "image": "../../assets/Users.png",
+    "linkApp": "https://users-crud-three.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/users-crud",
+    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/users_crud-fullstack"
+  }
+],
+    "contact": {
+      "title": "Let’s Talk About Your Project",
+      "subtitle": "Always open to freelance projects if the right opportunity comes along. Don’t hesitate to contact me."
     },
-
-    "form" : {
-        "name": "Name",
-        "email": "Email",
-        "subject": "Subject",
-        "message": "Message",
-        "send": "Send Message",
-        "sending" : "Sending...",
-        "sent": "Message sent successfully!"
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "sent": "Message sent successfully!"
     },
-    "inf" : {
-        "whatsApp" : "Send message to WhatsApp"
+    "inf": {
+      "whatsApp": "Send Message to WhatsApp"
     }
-}
+  }
+  

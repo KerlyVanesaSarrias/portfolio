@@ -1,10 +1,12 @@
-import Button from '../components/Button/Button'
-import './Styles/index.css'
+import Button from '../components/Button/Button';
+import './Styles/index.css';
 import SkillsParticles from '../components/SkillsParticules/SkillsParticles';
-
 import { useTranslation } from 'react-i18next';
-import Timeline from '../components/TimeLine';
-import Card from '../components/Card/Card.jsx'
+import Timeline from '../components/TimeLine/TimeLine.jsx';
+import Card from '../components/Card/Card.jsx';
+import { FiDownload } from 'react-icons/fi';
+
+
 
 const AboutMePage = () => {
 
@@ -35,23 +37,23 @@ const AboutMePage = () => {
           <h1 className={`${isEnglish ? 'w-32' : 'w-44'} brand`}>
             {t("about.title")}
           </h1>
-          <h2 className="  dark-text mt-6 font-bold uppercase text-4xl 2xl:text-7xl  ">
+          <h2 className="  dark-text mt-6  uppercase text-4xl 2xl:text-7xl  ">
             {t("about.head1")}
           </h2>
-          <h3 className="  dark-text  font-bold uppercase text-[#008DDA] text-4xl 2xl:text-7xl  ">
+          <h3 className="  dark-text uppercase text-[#008DDA] text-4xl 2xl:text-7xl  ">
             {t("about.head2")}
           </h3>
           <div className=' flex flex-col justify-center items-center'>
-            <p className=" dark-text  text-lg  2xl:text-3xl mt-7 text-justify  ">
+            <p className=" dark-text  text-lg  2xl:text-3xl mt-7 text-justify  leading-relaxed  tracking-wide  ">
               {t("about.description")}
             </p>
-            <Button onClick={handleDownload} className="md:mt-10  mt-5 
+            <Button onClick={handleDownload} className="md:mt-10  mt-5 flex items-center gap-2 
               " color="primary" size="small" isRounded>
-              {t("about.downloadCV")}
+              <FiDownload /> {t("about.downloadCV")}
             </Button>
           </div>
         </div>
-        <div className='md:w-1/2 w-full p-0 md:p-10 mt-20 md:mt-0'>
+        <div className='md:w-1/2 w-full pl-7 md:pl-0 md:p-10 mt-20 md:mt-0'>
           <SkillsParticles />
         </div>
 
@@ -63,7 +65,7 @@ const AboutMePage = () => {
         <div className=" md:gap-8 gap-4 2xl:gap-16">
           <div className="w-full">
             <h2 className="brand mb-4">{t("about.experience")}</h2>
-            <div className='flex md:flex-row flex-col gap-0 md:gap-4'> 
+            <div className='flex md:flex-row flex-col gap-0 md:gap-4'>
               {isEnglish ? (
                 <>
                   <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>

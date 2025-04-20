@@ -8,7 +8,7 @@ const InfContact = () => {
     return (
         <div className=' flex justify-center'>
             <div className='dark-text gap-10 '>
-                <address className='text-lg dark:text-gray-400 text-gray-500 2xl:text-3xl'>
+                <address className='text-lg dark-text 2xl:text-3xl'>
                     <div className='mb-5 mt-10'>
                         <span className='flex gap-4'>
                             <FaWhatsapp className='icon-info' />
@@ -29,7 +29,7 @@ const InfContact = () => {
                     </div>
                     <div className='flex gap-4'>
                         <MdOutlineLocationOn className='icon-info' />
-                        <span className="contact__info-map"> Huila, Colombia. </span>
+                        <span className="contact__info-map"> Bogotá D.C, Colombia. </span>
                     </div>
                 </address>
             </div>

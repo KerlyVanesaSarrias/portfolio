@@ -4,7 +4,7 @@
         "greeting": "¡Hola! Soy Kerly Vanessa Sarrias",
         "intro": "Soy",
         "role": "desarrolladora",
-        "description": "Desarrolladora Web Front-End con habilidades en múltiples tecnologías y siempre en búsqueda de nuevos desafíos y oportunidades para expandir mis conocimientos y habilidades.",
+        "description": "Desarrolladora Web Full-Stack con alma creativa, mente analítica y una taza de café siempre cerca. Estudiante de Ingeniería de Software, enfocada en crear experiencias que combinan diseño, tecnología y propósito.",
         "contact": "CONTÁCTAME"
     },
     "header": {
@@ -15,9 +15,9 @@
     },
     "about": {
         "title": "ACERCA DE MI",
-        "head1": " Soy desarrolladora web",
-        "head2": "Fullstack",
-        "description": "Tengo un sólido conocimiento de una amplia gama de tecnologías clave. Mi experiencia incluye desarrollo front-end con React, JavaScript, TypeScript, HTML, CSS y herramientas como Tailwind CSS y Bootstrap, así como desarrollo back-end con Node.js, bases de datos como MySQL, PostgreSQL y MongoDB, utilizando frameworks y bibliotecas como Sequelize y Express.",
+        "head1": " Soy desarrolladora web Fullstack",
+        "head2": "y estudiante de Ingeniería de Software.",
+        "description": "Mi transición del sector agroindustrial al desarrollo web me permitió unir análisis, organización y creatividad para crear soluciones digitales completas.Trabajo con React, TypeScript, Node.js, Java,  MongoDB, PostgreSQL, entre otras tecnologías, tanto en frontend como backend.Soy proactiva, curiosa y apasionada por transformar ideas en experiencias funcionales que generen valor real.",
         "downloadCV": "Descargar CV",
         "experience": "Experiencia",
         "work": "De Trabajo",
@@ -33,7 +33,7 @@
             "location": "Remoto",
             "date": "Abril 2024",
             "type": "Tiempo Completo",
-            "description": "Participación en la creación de la landing page e interfaz de usuario utilizando React y Next.js. Integración con la API de Mercado Pago para aceptar pagos con tarjeta y la creación de un blog utilizando WordPress."
+            "description": "Desarrollé la landing page e implementé interfaces de usuario con React y Next.js, optimizando la experiencia visual e interactiva. Integré la API de Mercado Pago para pagos seguros y eficientes y configuré un blog en WordPress para una gestión sencilla del contenido."
         },
         {
             "title": "Ingeniera Agroindustrial",
@@ -41,7 +41,7 @@
             "location": "Presencial",
             "date": "Abril 2023 - Abril 2024",
             "type": "Tiempo Completo",
-            "description": "Responsable de coordinar la logística, gestionar nóminas, gestionar equipos de trabajo y realizar análisis de calidad del producto, tanto físico como sensorial. El foco estuvo en cafés especiales, destacando la mejora de procesos, la gestión de proyectos y la organización eficiente de la producción."
+            "description": "Lideré equipos de trabajo y coordiné la logística de producción en el área de cafés especiales, gestionando proyectos de mejora continua, análisis de calidad y optimización de procesos, dentro de un entorno colaborativo y orientado a resultados."
         }
     ],
     "education": [
@@ -50,99 +50,106 @@
             "company": "Universidad Iberoamericana",
             "date": "2024 - Actualmente",
             "type": "Profesional",
-            "description": "Estoy adquiriendo una sólida base en programación y desarrollo de software, aprendiendo a crear aplicaciones escalables y seguras. También estoy desarrollando habilidades en análisis de sistemas, pruebas de calidad y gestión de proyectos, con un enfoque en el trabajo en equipo y la innovación."
+            "description": "Formación en desarrollo de software, sistemas escalables, pruebas de calidad y gestión de proyectos con enfoque en innovación y trabajo en equipo."
         },
         {
-            "title": "Desarrollo Full Stack Avanzado",
+            "title": "Desarrollo Web Full Stack",
+            "company": "Generation Colombia",
+            "date": "2025",
+            "type": "Bootcamp",
+            "description": "Aprendí fundamentos sólidos en desarrollo web full stack con HTML, CSS, JavaScript, Java y bases de datos, aplicando metodologías ágiles y buenas prácticas."
+        },
+        {
+            "title": "Desarrollo Web Full Stack Avanzado",
             "company": "Talento Tech",
             "date": "2024",
             "type": "Bootcamp",
-            "description": "Durante el Bootcamp Talento Tech, adquirí habilidades avanzadas en desarrollo web full stack, incluyendo creación de aplicaciones con React, arquitectura de microservicios, autenticación avanzada y optimización de bases de datos. Además, aprendí técnicas de CI/CD con Docker y Kubernetes, fortaleciendo mi capacidad para resolver problemas complejos y adaptarme a entornos de desarrollo dinámicos."
+            "description": "Aprendí desarrollo web avanzado con React, microservicios, autenticación, bases de datos y  Node.js , resolviendo retos en entornos dinámicos."
         },
         {
             "title": "Desarrollo Full Stack",
             "company": "Academlo",
             "date": "2024",
             "type": "Bootcamp",
-            "description": "Durante el bootcamp adquirí habilidades en front-end y back-end.  Además, fortalecí mi capacidad para trabajar en equipo, resolver problemas técnicos complejos y adaptarme a entornos de desarrollo."
+            "description": "Formación en front-end y back-end, fortaleciendo habilidades técnicas, resolución de problemas y trabajo colaborativo."
         },
         {
             "title": "Ingeniería Agroindustrial",
             "company": "Universidad Surcolombiana",
-            "date": "2021 - 2025",
+            "date": "2018 - 2023",
             "type": "Profesional",
-            "description": "Durante mi carrera de ingeniería, desarrollé fuertes habilidades en análisis y resolución de problemas. Gané experiencia en investigación, experimentación y gestión de proyectos, destacándome por mi capacidad de comunicación efectiva y trabajo en equipo."
+            "description": "Desarrollé habilidades analíticas, investigación y gestión de proyectos, destacando en comunicación y trabajo en equipo."
         }
     ],
-    "projects": [
-        {
-            "title": "Movies",
-            "description": "Es una aplicación web  de exploración de películas que permite buscar, filtrar, agragar a favoritos y ver detalles de las películas.",
-            "technologies": "React, Redux Toolkit Query, REST API, Tailwindcss",
-            "image": "../../assets/Movies.png",
-            "linkApp": "https://movies-red-six.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/movies"
-        },
-        {
-            "title": "Gallery",
-            "description": "Es una aplicación web interactiva para explorar imágenes y videos por categorías, con vista ampliada y un modo de presentación automática para una experiencia fluida y envolvente.",
-            "technologies": "React, Redux, REST API, Tailwindcss",
-            "image": "../../assets/Gallery.png",
-            "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/gallery"
-        },
-        {
-            "title": "Huila Travel",
-            "description": "Aplicación web que permite la reserva de sitios turísticos del departamento del Huila. Los usuarios pueden explorar y reservar planes turísticos, gestionar sus perfiles y crear sitios turísticos",
-            "technologies": "React, JavaScript,  TypeScript,  Node.js, MongoDB",
-            "image": "../../assets/HuilaTravel.png",
-            "linkApp": "https://frontendhuilatravel-1.onrender.com",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/huila_travel_frontend",
-            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/huila_travel_backend"
-        },
-        {
-            "title": "Social Net",
-            "description":"Aplicación web que permite la interacción entre usuarios. Incluye funcionalidades como registro, inicio de sesión, creación y gestión de perfiles, publicación y seguimiento de usuarios",
-            "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
-            "image": "../../assets/SocialNet.png",
-            "linkApp": "https://frontend-social-net-b76a.onrender.com",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/frontend_social_net",
-            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/backend_social_net"
-        },
-        {
-            "title": "Pokedex",
-            "description":"Aplicación web que te permite filtrar cartas de pokemons por número de especies y detalles de su información",
-            "technologies": "React, JavaScript, CSS, HTML",
-            "image": "../../assets/Pokedex.png",
-            "linkApp": "https://pokedex-omega-khaki.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/pokedex"
-        },
-        {
-            "title": "Rick and Morty App",
-            "description": "Una aplicación web que muestra personajes y episodios de la serie de televisión Rick and Morty",
-            "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
-            "image": "../../assets/RickAndMorty.png",
-            "linkApp": "https://rick-and-morty-app-pi-umber.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/Rick-and-Morty-APP"
-        },
-        {
-            "title": "Weather App",
-            "description": "Una aplicación web que muestra el clima actual y el pronóstico para una ubicación dada",
-            "technologies": "React, JavaScript, CSS, HTML",
-            "image": "../../assets/WeatherApp.png",
-            "linkApp": "https://weather-app-pi-ten-18.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/WeatherApp"
-        },
-        {
-            "title": "User App",
-            "description":"Una aplicación web que permite a los usuarios crear, leer, actualizar y eliminar datos de usuario",
-            "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
-            "image": "../../assets/Users.png",
-            "linkApp": "https://users-crud-three.vercel.app/",
-            "linkGitHub": "https://github.com/KerlyVanesaSarrias/users-crud",
-            "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/users_crud-fullstack"
-        }
-    ],
+   "projects": [
+  {
+    "title": "Movies",
+    "description": "Aplicación web para explorar películas: permite buscar, filtrar, agregar a favoritos y consultar información detallada. Ideal para cinéfilos que desean descubrir nuevos títulos fácilmente.",
+    "technologies": "React, Redux Toolkit Query, REST API, Tailwind CSS",
+    "image": "../../assets/Movies.png",
+    "linkApp": "https://movies-red-six.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/movies"
+  },
+  {
+    "title": "Gallery",
+    "description": "Galería interactiva de imágenes y videos organizada por categorías. Incorpora vista ampliada y modo de presentación automática para una navegación envolvente.",
+    "technologies": "React, Redux, REST API, Tailwind CSS",
+    "image": "../../assets/Gallery.png",
+    "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/gallery"
+  },
+  {
+    "title": "Huila Travel",
+    "description": "Plataforma web para explorar y reservar planes turísticos en el departamento del Huila. Los usuarios pueden gestionar su perfil, crear experiencias y descubrir nuevos destinos.",
+    "technologies": "React, JavaScript, TypeScript, Node.js, MongoDB",
+    "image": "../../assets/HuilaTravel.png",
+    "linkApp": "https://frontendhuilatravel-1.onrender.com",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/huila_travel_frontend",
+    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/huila_travel_backend"
+  },
+  {
+    "title": "Social Net",
+    "description": "Red social funcional donde los usuarios pueden registrarse, iniciar sesión, crear perfiles, publicar contenido y seguir a otros usuarios. Diseñada para fomentar la interacción y el networking.",
+    "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+    "image": "../../assets/SocialNet.png",
+    "linkApp": "https://frontend-social-net-b76a.onrender.com",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/frontend_social_net",
+    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/backend_social_net"
+  },
+  {
+    "title": "Pokedex",
+    "description": "Aplicación tipo Pokédex que permite filtrar Pokémon por especie y acceder a sus detalles. Ideal para fans que desean explorar el mundo Pokémon de forma ordenada.",
+    "technologies": "React, JavaScript, CSS, HTML",
+    "image": "../../assets/Pokedex.png",
+    "linkApp": "https://pokedex-omega-khaki.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/pokedex"
+  },
+  {
+    "title": "Rick and Morty App",
+    "description": "Visualizador de personajes y episodios de la serie Rick and Morty. Muestra detalles clave usando datos de la API oficial, ideal para fans de la serie.",
+    "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+    "image": "../../assets/RickAndMorty.png",
+    "linkApp": "https://rick-and-morty-app-pi-umber.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/Rick-and-Morty-APP"
+  },
+  {
+    "title": "Weather App",
+    "description": "Aplicación del clima que muestra las condiciones actuales y el pronóstico por ubicación. Útil para planificar actividades diarias según el clima local.",
+    "technologies": "React, JavaScript, CSS, HTML",
+    "image": "../../assets/WeatherApp.png",
+    "linkApp": "https://weather-app-pi-ten-18.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/WeatherApp"
+  },
+  {
+    "title": "User App",
+    "description": "Aplicación CRUD para gestionar datos de usuarios: crear, leer, actualizar y eliminar registros. Integra backend con Sequelize, MongoDB y MySQL para mayor flexibilidad.",
+    "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
+    "image": "../../assets/Users.png",
+    "linkApp": "https://users-crud-three.vercel.app/",
+    "linkGitHub": "https://github.com/KerlyVanesaSarrias/users-crud",
+    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/users_crud-fullstack"
+  }
+],
     "contact" : {
         "title":  "Hablemos de tu Proyecto",
         "subtitle": "Siempre disponible para proyectos freelance si surge el proyecto adecuado, no dudes en contactarme."

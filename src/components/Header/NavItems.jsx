@@ -1,10 +1,11 @@
 import classNames from 'classnames'
-import React from 'react'
 
+
+// eslint-disable-next-line react/prop-types
 const NavItems = ({text, onClick, isActive}) => {
 
-    const classes = classNames('hover:text-gray-400', {
-        'border-b-2 dark:border-white': isActive,
+    const classes = classNames('dark:hover:text-gray-400 hover:text-[#008DDA]  ', {
+        'border-b-2 dark:border-white border-cyan-900': isActive,
     })
 
     return (

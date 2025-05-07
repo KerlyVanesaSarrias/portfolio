@@ -9,6 +9,10 @@ import ProjectCard from './ProjectCard';
 import { useTranslation } from 'react-i18next';
 import Modal from '../Modal/Modal';
 import { useState } from 'react';
+import { MdComputer } from "react-icons/md";
+import { FaGithub} from "react-icons/fa";
+import Button from '../Button/Button';
+
 
 const Carousel = () => {
     const { t, } = useTranslation();
@@ -71,8 +75,8 @@ const Carousel = () => {
                     onClose={handleCloseModal}
                     title={selectedProject?.title}
                 >
-                    <div className="md:w-[600px] h-full w-full relative flex flex-col text-sm overflow-hidden md:p-10 p-2" >
-                        <img src={selectedProject?.image} className="w-full h-auto" />
+                    <div className="md:w-[600px] h-full w-full relative flex flex-col text-sm  md:p-6 p-2" >
+                        <img src={selectedProject?.image} className="w-full h-auto rounded-lg" />
                         <p className="mt-7 font-light text-justify">{selectedProject?.description}</p>
                         <div className='flex gap-4 mt-3'>
                             <p className='font-bold'>Technologies: </p>
@@ -81,14 +85,15 @@ const Carousel = () => {
                             </p>
                         </div>
 
-                        <div className='flex gap-10 text-sm  items-center justify-center italic dark:text-[#008DDA]  text-gray-700 underline'>
+                        <div className='flex gap-10 items-center justify-center mt-5 '>
                             {selectedProject?.linkApp && (
                                 <a
                                     href={selectedProject?.linkApp}
                                     target="_blank"
                                     className="mt-4 "
                                 >
-                                    Ver App Web
+                                <Button isOnlyIcon= "icon" color="secondary">  <MdComputer /> </Button>
+                                <p className='ml-3 extralight text-xs'>App</p>   
                                 </a>
                             )}
 
@@ -96,9 +101,10 @@ const Carousel = () => {
                                 <a
                                     href={selectedProject?.linkGitHub}
                                     target="_blank"
-                                    className="mt-4 italic "
+                                    className="mt-4 "
                                 >
-                                    Ver GiHub
+                                    <Button isOnlyIcon= "icon" color="secondary">   <FaGithub/> </Button> 
+                                    <p className='ml-2 extralight text-xs'>Front</p>
                                 </a>
                             )}
 
@@ -110,7 +116,8 @@ const Carousel = () => {
                                     rel="noopener noreferrer"
                                     className="mt-4"
                                 >
-                                    Ver GiHub Backend 
+                                    <Button isOnlyIcon= "icon" color="secondary">   <FaGithub/> </Button> 
+                                    <p className='ml-2 font-extralight text-xs'>Back</p>
                                 </a>
                             )}
 

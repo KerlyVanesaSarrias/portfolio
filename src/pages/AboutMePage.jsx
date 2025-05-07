@@ -53,7 +53,7 @@ const AboutMePage = () => {
             </Button>
           </div>
         </div>
-        <div className='md:w-1/2 w-full pl-7 md:pl-0 md:p-10 mt-20 md:mt-0'>
+        <div className='md:w-1/2 w-full pl-7 py-8 md:pl-16 mt-20 md:mt-0'>
           <SkillsParticles />
         </div>
 

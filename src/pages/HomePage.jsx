@@ -29,7 +29,7 @@ const HomePage = () => {
                         <a href="https://github.com/KerlyVanesaSarrias" target="_blank">
                             <Button isOnlyIcon='icon' color='secondary'  ><FaGithub /></Button>
                         </a>
-                        <a href="https://www.linkedin.com/in/kerly-vanessa-7ab012284/" target="_blank">
+                        <a href="https://www.linkedin.com/in/kerly-vanessa-sarrias-fullstack-developer/" target="_blank">
                             <Button isOnlyIcon='icon' color='secondary'  ><FaLinkedin /></Button>
                         </a>
                         <a href="https://wa.me/+573143046748?text=Tu%20Mensaje%20De%20Texto" target="_blank">

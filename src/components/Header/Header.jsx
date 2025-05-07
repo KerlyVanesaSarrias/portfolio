@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <>
     <div className=' w-full md:py-6 py-4  dark-text flex justify-between  items-center sticky top-0  bg-gradient-to-b dark:from-[#31475f] from-[#6d96a1] backdrop-blur-sm transition-colors duration-300 z-10'>
-      <ul className='flex items-center md:pl-20 pl-10'>
+      <ul className='flex items-center md:pl-20 pl-10 cursor-pointer' onClick={() => handleChangePage(HOME_PATH)}  >
         <li><img className='md:h-16 md:w-16 w-9 h-9  mr-2' src={LogoOne} alt="" /></li>
         <li><a className='md:text-2xl text-sm font-light space-x-10  '> KERLY</a></li>
       </ul>

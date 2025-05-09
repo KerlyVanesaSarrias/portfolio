@@ -4,7 +4,7 @@
         "greeting": "¡Hola! Soy Kerly Vanessa Sarrias",
         "intro": "Soy",
         "role": "desarrolladora",
-        "description": "Desarrolladora Web Full-Stack con alma creativa, mente analítica y una taza de café siempre cerca. Estudiante de Ingeniería de Software, enfocada en crear experiencias que combinan diseño, tecnología y propósito.",
+        "description": "Desarrolladora Web Front-End con alma creativa, mente analítica y una taza de café siempre cerca. Estudiante de Ingeniería de Software, enfocada en crear experiencias que combinan diseño, tecnología y propósito.",
         "contact": "CONTÁCTAME"
     },
     "header": {
@@ -15,7 +15,7 @@
     },
     "about": {
         "title": "ACERCA DE MI",
-        "head1": " Soy desarrolladora web Fullstack",
+        "head1": " Soy desarrolladora web Front-End",
         "head2": "y estudiante de Ingeniería de Software.",
         "description": "Mi transición del sector agroindustrial al desarrollo web me permitió unir análisis, organización y creatividad para crear soluciones digitales completas.Trabajo con React, TypeScript, Node.js, Java,  MongoDB, PostgreSQL, entre otras tecnologías, tanto en frontend como backend.Soy proactiva, curiosa y apasionada por transformar ideas en experiencias funcionales que generen valor real.",
         "downloadCV": "Descargar CV",

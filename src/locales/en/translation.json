@@ -4,7 +4,7 @@
       "greeting": "Hi! I'm Kerly Vanessa Sarrias",
       "intro": "I am",
       "role": "developer",
-      "description": "Full-Stack Web Developer with a creative soul, analytical mind, and a cup of coffee always nearby. Software Engineering student focused on building experiences that blend design, technology, and purpose.",
+      "description": "Front-End Web Developer with a creative soul, analytical mind, and a cup of coffee always nearby. Software Engineering student focused on building experiences that blend design, technology, and purpose.",
       "contact": "CONTACT ME"
     },
     "header": {
@@ -15,7 +15,7 @@
     },
     "about": {
       "title": "ABOUT ME",
-      "head1": "I'm a Fullstack Web Developer",
+      "head1": "I'm a Front-End Web Developer",
       "head2": "and a Software Engineering student.",
       "description": "My transition from the agro-industrial sector to web development allowed me to combine analysis, organization, and creativity to build complete digital solutions. I work with React, TypeScript, Node.js, Java, MongoDB, PostgreSQL, and more, both in frontend and backend. I'm proactive, curious, and passionate about turning ideas into functional experiences that deliver real value.",
       "downloadCV": "Download CV",

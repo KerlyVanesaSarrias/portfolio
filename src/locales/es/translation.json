@@ -1,169 +1,201 @@
 {
-    "home": {
-        "name": "Kerly Sarrias",
-        "greeting": "¡Hola! Soy Kerly Vanessa Sarrias",
-        "intro": "Soy",
-        "role": "desarrolladora",
-        "description": "Desarrolladora Web Front-End con alma creativa, mente analítica y una taza de café siempre cerca. Estudiante de Ingeniería de Software, enfocada en crear experiencias que combinan diseño, tecnología y propósito.",
-        "contact": "CONTÁCTAME"
+  "home": {
+    "name": "Kerly Sarrias",
+    "greeting": "¡Hola! Soy Kerly Vanessa Sarrias",
+    "intro": "Soy",
+    "role": "desarrolladora",
+    "description": "Desarrolladora Web con alma creativa, mente analítica y una taza de café siempre cerca. Estudiante de Ingeniería de Software, enfocada en crear experiencias que combinan diseño, tecnología y propósito.",
+    "contact": "CONTÁCTAME"
+  },
+  "header": {
+    "home": "Inicio",
+    "aboutMe": "Acerca De Mi",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "ACERCA DE MI",
+    "head1": " Soy desarrolladora web Front-End",
+    "head2": "y estudiante de Ingeniería de Software.",
+    "description": "Mi transición del sector agroindustrial al desarrollo web me permitió unir análisis, organización y creatividad para crear soluciones digitales completas.Trabajo con React, TypeScript, Node.js, Java,  MongoDB, PostgreSQL, entre otras tecnologías, tanto en frontend como backend.Soy proactiva, curiosa y apasionada por transformar ideas en experiencias funcionales que generen valor real.",
+    "downloadCV": "Descargar CV",
+    "experience": "Experiencia",
+    "work": "De Trabajo",
+    "education": "Educación",
+    "my": "Mi",
+    "projects": "Proyectos Recientes",
+    "miWork": "Mi Trabajo"
+  },
+  "jobs": [
+       {
+      "title": "Desarrolladora Freelance",
+      "company": "Freelance",
+      "location": "Remoto",
+      "date": "Mayo 2025 - Actualmente",
+      "type": "Tiempo Completo",
+      "description": "He desarrollado plataformas e-commerce personalizadas utilizando React, Next.js y Tailwind, integrando bases de datos SQL y sistemas de autenticación. He implementado funcionalidades clave como carritos de compras, pasarelas de pago y paneles administrativos para la gestión de productos y usuarios. Además, trabajo de forma directa con los clientes para definir requerimientos, realizar entregas iterativas y brindar soporte postlanzamiento."
     },
-    "header": {
-        "home": "Inicio",
-        "aboutMe": "Acerca De Mi",
-        "projects": "Proyectos",
-        "contact": "Contacto"
+    {
+      "title": "Desarrolladora Frontend",
+      "company": "Globin",
+      "location": "Remoto",
+      "date": "Abril 2024",
+      "type": "Tiempo Completo",
+      "description": "Desarrollé la landing page e implementé interfaces de usuario con React y Next.js, optimizando la experiencia visual e interactiva. Integré la API de Mercado Pago para pagos seguros y eficientes y configuré un blog en WordPress para una gestión sencilla del contenido."
     },
-    "about": {
-        "title": "ACERCA DE MI",
-        "head1": " Soy desarrolladora web Front-End",
-        "head2": "y estudiante de Ingeniería de Software.",
-        "description": "Mi transición del sector agroindustrial al desarrollo web me permitió unir análisis, organización y creatividad para crear soluciones digitales completas.Trabajo con React, TypeScript, Node.js, Java,  MongoDB, PostgreSQL, entre otras tecnologías, tanto en frontend como backend.Soy proactiva, curiosa y apasionada por transformar ideas en experiencias funcionales que generen valor real.",
-        "downloadCV": "Descargar CV",
-        "experience": "Experiencia",
-        "work": "De Trabajo",
-        "education": "Educación",
-        "my": "Mi",
-        "projects": "Proyectos Recientes",
-        "miWork" : "Mi Trabajo"
-    },
-    "jobs": [
-        {
-            "title": "Desarrolladora Frontend",
-            "company": "Globin",
-            "location": "Remoto",
-            "date": "Abril 2024",
-            "type": "Tiempo Completo",
-            "description": "Desarrollé la landing page e implementé interfaces de usuario con React y Next.js, optimizando la experiencia visual e interactiva. Integré la API de Mercado Pago para pagos seguros y eficientes y configuré un blog en WordPress para una gestión sencilla del contenido."
-        },
-        {
-            "title": "Ingeniera Agroindustrial",
-            "company": "Alma del Huila",
-            "location": "Presencial",
-            "date": "Abril 2023 - Abril 2024",
-            "type": "Tiempo Completo",
-            "description": "Lideré equipos de trabajo y coordiné la logística de producción en el área de cafés especiales, gestionando proyectos de mejora continua, análisis de calidad y optimización de procesos, dentro de un entorno colaborativo y orientado a resultados."
-        }
-    ],
-    "education": [
-        {
-            "title": "Ingeniería de Software",
-            "company": "Universidad Iberoamericana",
-            "date": "2024 - Actualmente",
-            "type": "Profesional",
-            "description": "Formación en desarrollo de software, sistemas escalables, pruebas de calidad y gestión de proyectos con enfoque en innovación y trabajo en equipo."
-        },
-        {
-            "title": "Desarrollo Web Full Stack",
-            "company": "Generation Colombia",
-            "date": "2025",
-            "type": "Bootcamp",
-            "description": "Aprendí fundamentos sólidos en desarrollo web full stack con HTML, CSS, JavaScript, Java y bases de datos, aplicando metodologías ágiles y buenas prácticas."
-        },
-        {
-            "title": "Desarrollo Web Full Stack Avanzado",
-            "company": "Talento Tech",
-            "date": "2024",
-            "type": "Bootcamp",
-            "description": "Aprendí desarrollo web avanzado con React, microservicios, autenticación, bases de datos y  Node.js , resolviendo retos en entornos dinámicos."
-        },
-        {
-            "title": "Desarrollo Full Stack",
-            "company": "Academlo",
-            "date": "2024",
-            "type": "Bootcamp",
-            "description": "Formación en front-end y back-end, fortaleciendo habilidades técnicas, resolución de problemas y trabajo colaborativo."
-        },
-        {
-            "title": "Ingeniería Agroindustrial",
-            "company": "Universidad Surcolombiana",
-            "date": "2018 - 2023",
-            "type": "Profesional",
-            "description": "Desarrollé habilidades analíticas, investigación y gestión de proyectos, destacando en comunicación y trabajo en equipo."
-        }
-    ],
-   "projects": [
-  {
-    "title": "Movies",
-    "description": "Aplicación web para explorar películas: permite buscar, filtrar, agregar a favoritos y consultar información detallada. Ideal para cinéfilos que desean descubrir nuevos títulos fácilmente.",
-    "technologies": "React, Redux Toolkit Query, REST API, Tailwind CSS",
-    "image": "../../assets/Movies.png",
-    "linkApp": "https://movies-red-six.vercel.app/",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/movies"
-  },
-  {
-    "title": "Gallery",
-    "description": "Galería interactiva de imágenes y videos organizada por categorías. Incorpora vista ampliada y modo de presentación automática para una navegación envolvente.",
-    "technologies": "React, Redux, REST API, Tailwind CSS",
-    "image": "../../assets/Gallery.png",
-    "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/gallery"
-  },
-  {
-    "title": "Huila Travel",
-    "description": "Plataforma web para explorar y reservar planes turísticos en el departamento del Huila. Los usuarios pueden gestionar su perfil, crear experiencias y descubrir nuevos destinos.",
-    "technologies": "React, JavaScript, TypeScript, Node.js, MongoDB",
-    "image": "../../assets/HuilaTravel.png",
-    "linkApp": "https://frontendhuilatravel-1.onrender.com",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/huila_travel_frontend",
-    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/huila_travel_backend"
-  },
-  {
-    "title": "Social Net",
-    "description": "Red social funcional donde los usuarios pueden registrarse, iniciar sesión, crear perfiles, publicar contenido y seguir a otros usuarios. Diseñada para fomentar la interacción y el networking.",
-    "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
-    "image": "../../assets/SocialNet.png",
-    "linkApp": "https://frontend-social-net-b76a.onrender.com",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/frontend_social_net",
-    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/backend_social_net"
-  },
-  {
-    "title": "Pokedex",
-    "description": "Aplicación tipo Pokédex que permite filtrar Pokémon por especie y acceder a sus detalles. Ideal para fans que desean explorar el mundo Pokémon de forma ordenada.",
-    "technologies": "React, JavaScript, CSS, HTML",
-    "image": "../../assets/Pokedex.png",
-    "linkApp": "https://pokedex-omega-khaki.vercel.app/",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/pokedex"
-  },
-  {
-    "title": "Rick and Morty App",
-    "description": "Visualizador de personajes y episodios de la serie Rick and Morty. Muestra detalles clave usando datos de la API oficial, ideal para fans de la serie.",
-    "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
-    "image": "../../assets/RickAndMorty.png",
-    "linkApp": "https://rick-and-morty-app-pi-umber.vercel.app/",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/Rick-and-Morty-APP"
-  },
-  {
-    "title": "Weather App",
-    "description": "Aplicación del clima que muestra las condiciones actuales y el pronóstico por ubicación. Útil para planificar actividades diarias según el clima local.",
-    "technologies": "React, JavaScript, CSS, HTML",
-    "image": "../../assets/WeatherApp.png",
-    "linkApp": "https://weather-app-pi-ten-18.vercel.app/",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/WeatherApp"
-  },
-  {
-    "title": "User App",
-    "description": "Aplicación CRUD para gestionar datos de usuarios: crear, leer, actualizar y eliminar registros. Integra backend con Sequelize, MongoDB y MySQL para mayor flexibilidad.",
-    "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
-    "image": "../../assets/Users.png",
-    "linkApp": "https://users-crud-three.vercel.app/",
-    "linkGitHub": "https://github.com/KerlyVanesaSarrias/users-crud",
-    "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/users_crud-fullstack"
-  }
-],
-    "contact" : {
-        "title":  "Hablemos de tu Proyecto",
-        "subtitle": "Siempre disponible para proyectos freelance si surge el proyecto adecuado, no dudes en contactarme."
-    },
-    "form" : {
-        "name": "Nombre",
-        "email": "Correo",
-        "subject": "Asunto",
-        "message": "Mensaje",
-        "send": "Enviar Mensaje",
-        "sending" : "Enviando...",
-        "sent": "Mensaje Enviado correctamente!"
-    },
-    "inf" : {
-        "whatsApp" : "Enviar Mensaje a WhatsApp"
+    {
+      "title": "Ingeniera Agroindustrial",
+      "company": "Alma del Huila",
+      "location": "Presencial",
+      "date": "Abril 2023 - Abril 2024",
+      "type": "Tiempo Completo",
+      "description": "Lideré equipos de trabajo y coordiné la logística de producción en el área de cafés especiales, gestionando proyectos de mejora continua, análisis de calidad y optimización de procesos, dentro de un entorno colaborativo y orientado a resultados."
     }
+  ],
+  "education": [
+    {
+      "title": "Ingeniería de Software",
+      "company": "Universidad Iberoamericana",
+      "date": "2024 - Actualmente",
+      "type": "Profesional",
+      "description": "Formación en desarrollo de software, sistemas escalables, pruebas de calidad y gestión de proyectos con enfoque en innovación y trabajo en equipo."
+    },
+    {
+      "title": "Desarrollo Web Full Stack",
+      "company": "Generation Colombia",
+      "date": "2025",
+      "type": "Bootcamp",
+      "description": "Aprendí fundamentos sólidos en desarrollo web full stack con HTML, CSS, JavaScript, Java y bases de datos, aplicando metodologías ágiles y buenas prácticas."
+    },
+    {
+      "title": "Desarrollo Web Full Stack Avanzado",
+      "company": "Talento Tech",
+      "date": "2024",
+      "type": "Bootcamp",
+      "description": "Aprendí desarrollo web avanzado con React, microservicios, autenticación, bases de datos y  Node.js , resolviendo retos en entornos dinámicos."
+    },
+    {
+      "title": "Desarrollo Full Stack",
+      "company": "Academlo",
+      "date": "2024",
+      "type": "Bootcamp",
+      "description": "Formación en front-end y back-end, fortaleciendo habilidades técnicas, resolución de problemas y trabajo colaborativo."
+    },
+    {
+      "title": "Ingeniería Agroindustrial",
+      "company": "Universidad Surcolombiana",
+      "date": "2018 - 2023",
+      "type": "Profesional",
+      "description": "Desarrollé habilidades analíticas, investigación y gestión de proyectos, destacando en comunicación y trabajo en equipo."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Drinks",
+      "description": "Aplicación web permite buscar recetas de cócteles y bebidas a través de una API externa, mostrando ingredientes, instrucciones y datos visuales de cada preparación. Integra IA generativa para buscar cócteles usando lenguaje natural ",
+      "technologies": "JavaScript, TypeScript, React, Zustand, Tailwind CSS y GitHub",
+      "image": "../../assets/Drinks.png",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/drink-recipes-AI"
+    },
+    {
+      "title": "Legends",
+      "description": "Aplicación web Permite registrar, visualizar, filtrar y administrar leyendas populares de Costa Rica, categorizadas por ubicación y tipo. Tiene un panel de administración intuitivo.",
+      "technologies": "JavaScript, TypeScript, Vue.js, Pinia, Tailwind CSS, Python, FastApi, Cloudinary, JWT y GitHub",
+      "image": "../../assets/Legends.png",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/4thewords_frontend_kerly_sarrias",
+      "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/KerlyVanesaSarrias-4thewords_backend_kerly_sarrias"
+    },
+    {
+      "title": "PetLab",
+      "description": "Aplicación web tipo e-commerce desarrollada de forma colaborativa para un laboratorio veterinario. La plataforma permite a los usuarios agendar servicios clínicos y adquirir productos veterinarios en línea.",
+      "technologies": "JavaScript, Java, Sprint Boot, Booststrap y GitHub",
+      "image": "../../assets/PetLab.png",
+      "linkApp": "https://main.d2e3h3wxomf5cy.amplifyapp.com/index.html",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/PetLab",
+      "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/back-end-PetLab"
+    },
+    {
+      "title": "Movies",
+      "description": "Aplicación web para explorar películas: permite buscar, filtrar, agregar a favoritos y consultar información detallada. Ideal para cinéfilos que desean descubrir nuevos títulos fácilmente.",
+      "technologies": "React, Redux Toolkit Query, REST API, Tailwind CSS",
+      "image": "../../assets/Movies.png",
+      "linkApp": "https://movies-red-six.vercel.app/",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/movies"
+    },
+    {
+      "title": "Gallery",
+      "description": "Galería interactiva de imágenes y videos organizada por categorías. Incorpora vista ampliada y modo de presentación automática para una navegación envolvente.",
+      "technologies": "React, Redux, REST API, Tailwind CSS",
+      "image": "../../assets/Gallery.png",
+      "linkApp": "https://gallery-san-gabriel.vercel.app/gallery",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/gallery"
+    },
+    {
+      "title": "Huila Travel",
+      "description": "Plataforma web para explorar y reservar planes turísticos en el departamento del Huila. Los usuarios pueden gestionar su perfil, crear experiencias y descubrir nuevos destinos.",
+      "technologies": "React, JavaScript, TypeScript, Node.js, MongoDB",
+      "image": "../../assets/HuilaTravel.png",
+      "linkApp": "https://frontendhuilatravel-1.onrender.com",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/huila_travel_frontend",
+      "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/huila_travel_backend"
+    },
+    {
+      "title": "Social Net",
+      "description": "Red social funcional donde los usuarios pueden registrarse, iniciar sesión, crear perfiles, publicar contenido y seguir a otros usuarios. Diseñada para fomentar la interacción y el networking.",
+      "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+      "image": "../../assets/SocialNet.png",
+      "linkApp": "https://frontend-social-net-b76a.onrender.com",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/frontend_social_net",
+      "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/backend_social_net"
+    },
+    {
+      "title": "Pokedex",
+      "description": "Aplicación tipo Pokédex que permite filtrar Pokémon por especie y acceder a sus detalles. Ideal para fans que desean explorar el mundo Pokémon de forma ordenada.",
+      "technologies": "React, JavaScript, CSS, HTML",
+      "image": "../../assets/Pokedex.png",
+      "linkApp": "https://pokedex-omega-khaki.vercel.app/",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/pokedex"
+    },
+    {
+      "title": "Rick and Morty App",
+      "description": "Visualizador de personajes y episodios de la serie Rick and Morty. Muestra detalles clave usando datos de la API oficial, ideal para fans de la serie.",
+      "technologies": "React, JavaScript, CSS, HTML, Node.js, MongoDB",
+      "image": "../../assets/RickAndMorty.png",
+      "linkApp": "https://rick-and-morty-app-pi-umber.vercel.app/",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/Rick-and-Morty-APP"
+    },
+    {
+      "title": "Weather App",
+      "description": "Aplicación del clima que muestra las condiciones actuales y el pronóstico por ubicación. Útil para planificar actividades diarias según el clima local.",
+      "technologies": "React, JavaScript, CSS, HTML",
+      "image": "../../assets/WeatherApp.png",
+      "linkApp": "https://weather-app-pi-ten-18.vercel.app/",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/WeatherApp"
+    },
+    {
+      "title": "User App",
+      "description": "Aplicación CRUD para gestionar datos de usuarios: crear, leer, actualizar y eliminar registros. Integra backend con Sequelize, MongoDB y MySQL para mayor flexibilidad.",
+      "technologies": "React, JavaScript, CSS, HTML, MySQL, MongoDB, Sequelize",
+      "image": "../../assets/Users.png",
+      "linkApp": "https://users-crud-three.vercel.app/",
+      "linkGitHub": "https://github.com/KerlyVanesaSarrias/users-crud",
+      "linkGitHubBack": "https://github.com/KerlyVanesaSarrias/users_crud-fullstack"
+    }
+  ],
+  "contact": {
+    "title": "Hablemos de tu Proyecto",
+    "subtitle": "Siempre disponible para proyectos freelance si surge el proyecto adecuado, no dudes en contactarme."
+  },
+  "form": {
+    "name": "Nombre",
+    "email": "Correo",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "sent": "Mensaje Enviado correctamente!"
+  },
+  "inf": {
+    "whatsApp": "Enviar Mensaje a WhatsApp"
+  }
 }

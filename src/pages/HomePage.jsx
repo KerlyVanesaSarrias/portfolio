@@ -2,6 +2,7 @@
 import Button from "../components/Button/Button"
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Photo1 from '../assets/photo1.png';
+import effect1 from '../assets/effect-1.svg';
 import { Link } from "react-router-dom";
 import { CONTACT_PATH } from "../constants";
 import { useTranslation } from 'react-i18next';
@@ -48,8 +49,10 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <div className="2xl:w-1/3 md:w-2/5 w-full">
-                <img className=" w-full h-full" src={Photo1} alt="" />
+            <div className="md:w-2/6 w-full relative h-full">
+                <img className="relative w-full h-full z-50 rounded-3xl" src={Photo1} alt="" />
+                <img src={effect1} alt="" className="absolute -top-10 left-0 z-10 w-[80%]"/> 
+                <img src={effect1} alt="" className="absolute bottom-20 md:bottom-10 lg:bottom-20 -right-2 lg:-right-10 z-10 w-[50%]"/>
             </div>
 
         </div>

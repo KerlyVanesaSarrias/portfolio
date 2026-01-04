@@ -1,10 +1,9 @@
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import ProjectCard from './ProjectCard';
 import { useTranslation } from 'react-i18next';
 import Modal from '../Modal/Modal';
@@ -32,13 +31,12 @@ const Carousel = () => {
 
     return (
         <>
-            <Swiper className='md:pl-10 md:pr-16 pl-8 pr-14'
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+            <Swiper className='md:pl-10 md:pr-16 pl-8 pr-14 flex items-center'
+                modules={[Navigation, Pagination, A11y]}
                 spaceBetween={60}
                 slidesPerView={3}
                 navigation
                 pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 breakpoints={{
@@ -46,11 +44,11 @@ const Carousel = () => {
                         slidesPerView: 1,
                         spaceBetween: 50,
                     },
-                    480: {
+                    640: {
                         slidesPerView: 1,
                         spaceBetween: 50,
                     },
-                    640: {
+                    770: {
                         slidesPerView: 2,
                         spaceBetween: 50,
                     },
@@ -62,7 +60,7 @@ const Carousel = () => {
             >
                 {projects.map((project, index) => (
                     <SwiperSlide key={index}>
-                        <div onClick={() => handleCardClick(project)} className="cursor-pointer mt-28 md:mt-0 md:mb-10 mb-20">
+                        <div onClick={() => handleCardClick(project)} className="cursor-pointer mb-10">
                             <ProjectCard {...project} />
                         </div>
                     </SwiperSlide>
@@ -108,7 +106,6 @@ const Carousel = () => {
                                 </a>
                             )}
 
-
                             {selectedProject?.linkGitHubBack && (
                                 <a
                                     href={selectedProject?.linkGitHubBack}
@@ -120,7 +117,6 @@ const Carousel = () => {
                                     <p className='ml-2 font-extralight text-xs'>Back</p>
                                 </a>
                             )}
-
                         </div>
                     </div>
                     <div>

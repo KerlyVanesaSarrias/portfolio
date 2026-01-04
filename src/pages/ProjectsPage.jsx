@@ -4,11 +4,11 @@ import { useTranslation } from 'react-i18next';
 const ProjectsPage = () => {
     const { t} = useTranslation();
     return (
-        <div className='w-ful'>
-            <h1 className="brand ml-10 md:mt-5 mt-16 ">{t("about.miWork")}</h1>
-            <h2 className=" dark-text font-bold uppercase text-2xl mb-5   md:text-4xl 2xl:text-7xl ml-10">{t("about.projects")}</h2>   
-            <div className=''>
-            < Carousel/>
+        <div className='w-full px-5 py-6 flex flex-col gap-4'>
+            <h1 className="brand w-fit">{t("about.miWork")}</h1>
+            <h2 className=" dark-text font-bold uppercase text-2xl md:text-4xl">{t("about.projects")}</h2>   
+            <div className="w-full">
+            <Carousel/>
             </div>
         </div>
     )

@@ -1,34 +1,32 @@
 
 
 .dark-input {
-    @apply  w-full  2xl:text-2xl   shadow-md shadow-cyan-800 dark:shadow-cyan-950 rounded-md p-2 border-gray-600  dark:bg-white/5  ;
+    @apply  w-full 2xl:text-xl border border-cyan-500 dark:border-cyan-800 rounded-md p-2 dark:bg-white/5  ;
 }
 
-
 .project-container {
-    @apply  transform md:transition-transform md:duration-75 hover:scale-105 inline-block md:w-96 2xl:w-auto w-full  2xl:h-auto md:h-96 h-full m-4 p-5 rounded-lg overflow-hidden dark:bg-sky-950 bg-slate-200 shadow-md shadow-cyan-800 dark:shadow-slate-950;
+    @apply  transform md:transition-transform md:duration-75 hover:scale-105 inline-block md:w-96 2xl:w-auto w-full h-96 m-4 p-5 rounded-lg overflow-hidden dark:bg-sky-950 bg-slate-200 shadow-md shadow-cyan-800 dark:shadow-slate-950;
 }
 
 .project-image {
-    @apply w-full md:h-52 h-full 2xl:h-80 object-cover rounded-lg drop-shadow-2xl;
+    @apply w-full h-32 md:h-40 object-cover rounded-lg drop-shadow-2xl;
 }   
 
 .project-tittle {
-    @apply text-lg 2xl:text-3xl font-bold uppercase mb-5;
+    @apply text-lg 2xl:text-xl font-bold uppercase mb-5;
 }
 
 .project-description {
-    @apply  text-xs text-justify  2xl:text-xl inline-block overflow-hidden mt-5  ;
+    @apply  text-xs text-justify  2xl:text-sm inline-block overflow-hidden mt-5  ;
 }
-
 
 .dark-target {
     @apply dark:bg-gray-800 bg-gray-300
 }
 .tittle-input {
-    @apply block font-semibold 2xl:text-2xl
+    @apply block font-medium 2xl:text-lg
 }
 
 .icon-info {
-    @apply text-3xl 2xl:text-5xl text-[#008DDA]
+    @apply text-3xl 2xl:text-4xl text-[#008DDA]
 }

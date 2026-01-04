@@ -15,9 +15,9 @@
   },
   "about": {
     "title": "ABOUT ME",
-    "head1": "I'm a Front-End Web Developer",
+    "head1": "I'm a FullStack Web Developer",
     "head2": "and a Software Engineering student.",
-    "description": "My transition from the agro-industrial sector to web development allowed me to combine analysis, organization, and creativity to build complete digital solutions. I work with React, TypeScript, Node.js, Java, MongoDB, PostgreSQL, and more, both in frontend and backend. I'm proactive, curious, and passionate about turning ideas into functional experiences that deliver real value.",
+    "description": "I am a Full Stack Developer and a Software Engineering student. I enjoy building end-to-end applications, from intuitive user interfaces to robust backend architectures, using React, Vue.js, TypeScript, Node.js, Java, MongoDB, and PostgreSQL. I am driven by continuous learning and motivated to turn ideas into efficient, well-designed digital experiences.",
     "downloadCV": "Download CV",
     "experience": "Work",
     "work": "Experience",
@@ -27,11 +27,19 @@
     "miWork": "My Work"
   },
   "jobs": [
+     {
+      "title": "FullStack Developer",
+      "company": "4thewords",
+      "location": "Remote",
+      "date": "August 2025 -  Present",
+      "type": "Full-time",
+      "description": "Full Stack Developer working on a writing platform, contributing to both frontend and backend development. I build and maintain user-facing features using Vue.js, while developing and optimizing backend services with Python and PHP. My work includes implementing new features, improving performance, fixing bugs, and collaborating closely with the team to deliver stable, scalable, and engaging user experiences."
+    },
     {
       "title": "Freelance Developer",
       "company": "Freelance",
       "location": "Remote",
-      "date": "May 2025 - Present",
+      "date": "January - August 2025",
       "type": "Full-time",
       "description": "I have developed custom e-commerce platforms using React, Next.js, and Tailwind, integrating SQL databases and authentication systems. I have implemented key features such as shopping carts, payment gateways, and administrative panels for product and user management. Additionally, I work directly with clients to define requirements, perform iterative deliveries, and provide post-launch support."
     },

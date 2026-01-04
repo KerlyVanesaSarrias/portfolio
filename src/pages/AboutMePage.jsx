@@ -30,76 +30,64 @@ const AboutMePage = () => {
 
 
   return (
+    <div className='flex flex-col w-full py-8 md:px-20 px-5 gap-20'>
 
-    <div className='w-full flex flex-col  gap-14  pt-10 md:px-20 px-10'>
-      <section className='flex flex-col md:flex-row'>
-        <div className='  flex flex-col  gap-1 w-full md:w-1/2 '>
+      <section className='flex flex-col lg:flex-row w-full gap-10'>
+        <div className='flex flex-col gap-1 w-full lg:w-1/2'>
           <h1 className={`${isEnglish ? 'w-32' : 'w-44'} brand`}>
             {t("about.title")}
           </h1>
-          <h2 className="  dark-text mt-6  uppercase text-4xl 2xl:text-7xl  ">
+          <h2 className="  dark-text font-semibold uppercase text-4xl 2xl:text-5xl  ">
             {t("about.head1")}
           </h2>
-          <h3 className="  dark-text uppercase text-[#008DDA] text-4xl 2xl:text-7xl  ">
+          <h3 className="  dark-text uppercase text-[#008DDA] text-4xl 2xl:text-5xl  ">
             {t("about.head2")}
           </h3>
           <div className=' flex flex-col justify-center items-center'>
-            <p className=" dark-text  text-lg  2xl:text-3xl mt-7 text-justify  leading-relaxed  tracking-wide  ">
+            <p className=" dark-text  text-lg  2xl:text-xl mt-7 text-justify  leading-relaxed  tracking-wide  ">
               {t("about.description")}
             </p>
-            <Button onClick={handleDownload} className="md:mt-10  mt-5 flex items-center gap-2 
-              " color="primary" size="small" isRounded>
+            <Button onClick={handleDownload} className="md:mt-10  mt-5 flex items-center gap-2 w-fit" color="primary" size="medium">
               <FiDownload /> {t("about.downloadCV")}
             </Button>
           </div>
         </div>
-        <div className='md:w-1/2 w-full pl-7 py-8 md:pl-16 mt-20 md:mt-0'>
+        <div className='lg:w-1/2 w-full'>
           <SkillsParticles />
         </div>
-
       </section>
 
-
-
-      <div className=" md:mt-12 mt-2">
-        <div className=" md:gap-8 gap-4 2xl:gap-16">
-          <div className="w-full">
-            <h2 className="brand mb-4">{t("about.experience")}</h2>
+      <section className="flex flex-col w-full">
+          <div className="flex w-full flex-col gap-2">
+            <h2 className="brand w-fit">{t("about.experience")}</h2>
             <div className='flex md:flex-row flex-col gap-0 md:gap-4'>
               {isEnglish ? (
                 <>
-                  <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>
-                  <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase">{t("about.experience")}</h3>
+                  <h3 className="dark-text font-bold text-4xl 2xl:text-5xl uppercase">{t("about.work")}</h3>
+                  <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-5xl uppercase">{t("about.experience")}</h3>
                 </>
               ) : (
                 <>
-                  <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase">{t("about.experience")}</h3>
-                  <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase">{t("about.work")}</h3>
+                  <h3 className="dark-text font-bold text-4xl 2xl:text-5xl uppercase">{t("about.experience")}</h3>
+                  <h3 className="text-[#008DDA] font-bold text-4xl 2xl:text-5xl uppercase">{t("about.work")}</h3>
                 </>
               )}
             </div>
-            <div>
-              <Timeline
-                data={jobs}
-                CardComponent={Card} />
-            </div>
+              <Timeline data={jobs} CardComponent={Card} />
+        </div>
+
+        <div className="flex flex-col dark-text w-full gap-2">
+          <h2 className="w-fit brand">{t("about.education")}</h2>
+          <div className='flex gap-4'>
+            <h3 className="dark-text font-bold text-4xl 2xl:text-5xl uppercase ">{t("about.my")}</h3>
+            <h3 className='text-[#008DDA] font-bold text-4xl 2xl:text-5xl uppercase'>{t("about.education")}</h3>
+          </div>
+          <div className='w-full'>
+            <Timeline data={education} CardComponent={Card} />
           </div>
         </div>
 
-        <div className="w-full dark-text mt-9 ">
-          <h2 className=" mb-4 brand">{t("about.education")}</h2>
-          <div className='flex gap-4 mb-10'>
-            <h3 className="dark-text font-bold text-4xl 2xl:text-7xl uppercase ">{t("about.my")}</h3>
-            <h3 className='text-[#008DDA] font-bold text-4xl 2xl:text-7xl uppercase'>{t("about.education")}</h3>
-          </div>
-          <div>
-            <Timeline
-              data={education}
-              CardComponent={Card} />
-          </div>
-        </div>
-
-      </div>
+      </section>
     </div>
 
 

@@ -15,9 +15,9 @@
   },
   "about": {
     "title": "ACERCA DE MI",
-    "head1": " Soy desarrolladora web Front-End",
+    "head1": " Soy desarrolladora web FullStack",
     "head2": "y estudiante de Ingeniería de Software.",
-    "description": "Mi transición del sector agroindustrial al desarrollo web me permitió unir análisis, organización y creatividad para crear soluciones digitales completas.Trabajo con React, TypeScript, Node.js, Java,  MongoDB, PostgreSQL, entre otras tecnologías, tanto en frontend como backend.Soy proactiva, curiosa y apasionada por transformar ideas en experiencias funcionales que generen valor real.",
+    "description": "Soy desarrolladora Full Stack y estudiante de Ingeniería de Software. Disfruto construir aplicaciones completas, desde interfaces intuitivas hasta arquitecturas backend robustas, utilizando React, Vue.js, TypeScript, Node.js, Java, MongoDB y PostgreSQL. Me motiva aprender constantemente y convertir ideas en experiencias digitales eficientes y bien diseñadas.",
     "downloadCV": "Descargar CV",
     "experience": "Experiencia",
     "work": "De Trabajo",
@@ -27,11 +27,19 @@
     "miWork": "Mi Trabajo"
   },
   "jobs": [
-       {
+    {
+      "title": "Desarrolladora FullStack",
+      "company": "4thewords",
+      "location": "Remoto",
+      "date": "Agosto 2025 - Actualmente",
+      "type": "Tiempo Completo",
+      "description": "Desarrolladora Full Stack en una plataforma de escritura, participando activamente en el desarrollo frontend y backend. Trabajo en la implementación y mantenimiento de funcionalidades del lado del cliente con Vue.js, así como en el desarrollo, optimización y refactorización de servicios backend utilizando Python y PHP. Mi trabajo incluye la creación de nuevas funcionalidades, mejoras de rendimiento, corrección de errores y colaboración continua con el equipo para entregar experiencias estables, escalables y de alto impacto."
+    },
+    {
       "title": "Desarrolladora Freelance",
       "company": "Freelance",
       "location": "Remoto",
-      "date": "Mayo 2025 - Actualmente",
+      "date": "Enero 2025 - Agosto 2025",
       "type": "Tiempo Completo",
       "description": "He desarrollado plataformas e-commerce personalizadas utilizando React, Next.js y Tailwind, integrando bases de datos SQL y sistemas de autenticación. He implementado funcionalidades clave como carritos de compras, pasarelas de pago y paneles administrativos para la gestión de productos y usuarios. Además, trabajo de forma directa con los clientes para definir requerimientos, realizar entregas iterativas y brindar soporte postlanzamiento."
     },

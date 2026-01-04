@@ -4,8 +4,6 @@
     @apply p-1 rounded px-[5px] inline-block text-white font-normal text-base leading-5 tracking-[4px] uppercase dark:bg-[#0787ff33] bg-cyan-900
 }
 
-
-
 .bg-skills {
     @apply dark:bg-[#0787ff1a] bg-[#8f89897c]
 }
@@ -15,8 +13,8 @@
 
 
 @keyframes typing {
-    from { width: 0; }
-    to { width: 15ch; }
+  from { width: 0; }
+  to   { width: var(--typing-width); }
 }
 
 @keyframes blink {
@@ -25,21 +23,20 @@
 }
 
 .typing {
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 5px solid rgb(6, 175, 218);
-    animation: typing 5s steps(26) 1s infinite alternate, 
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid rgb(6, 175, 218);
+  width: var(--typing-width);
+
+  animation:
+    typing 3s steps(var(--typing-steps)) 1s infinite alternate,
     blink 0.75s step-end infinite;
 }
+
 .dark-text {
     @apply  dark:text-white  text-cyan-900 
 }
 
 .text-blue {
     @apply text-[#008DDA]
-}
-
-.contact-section {
-    border: 1px solid ;
-
 }
